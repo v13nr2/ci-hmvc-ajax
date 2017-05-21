@@ -39,3 +39,32 @@ DEBUG - 2017-05-21 21:40:01 --> Total execution time: 1.1057
 DEBUG - 2017-05-21 21:40:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2017-05-21 21:40:01 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
 DEBUG - 2017-05-21 21:40:01 --> Total execution time: 1.0666
+DEBUG - 2017-05-21 21:46:19 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:46:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:46:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:46:20 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/todo/models/Todo_model.php
+DEBUG - 2017-05-21 21:46:22 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:46:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:46:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:46:23 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/todo/models/Todo_model.php
+DEBUG - 2017-05-21 21:46:23 --> Total execution time: 1.0963
+DEBUG - 2017-05-21 21:57:35 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:57:35 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:57:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:57:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:57:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:57:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:57:36 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
+DEBUG - 2017-05-21 21:57:37 --> Total execution time: 1.1284
+DEBUG - 2017-05-21 21:57:37 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
+DEBUG - 2017-05-21 21:57:37 --> Total execution time: 1.1491
+DEBUG - 2017-05-21 21:57:42 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:57:42 --> UTF-8 Support Enabled
+DEBUG - 2017-05-21 21:57:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:57:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-21 21:57:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:57:43 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
+DEBUG - 2017-05-21 21:57:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-05-21 21:57:43 --> Total execution time: 1.1180
+DEBUG - 2017-05-21 21:57:43 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
+DEBUG - 2017-05-21 21:57:43 --> Total execution time: 1.1384
