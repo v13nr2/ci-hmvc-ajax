@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="<?php echo base_url('assets/autocomplete/jquery-ui.css');?>">
 
+  <script src="<?php echo base_url('assets/autocomplete/jquery-ui.js');?>"></script>
 	
 	<div class="row">
 	<div class="col-md-12">
