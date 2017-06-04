@@ -773,3 +773,26 @@ DEBUG - 2017-06-04 18:56:47 --> UTF-8 Support Enabled
 DEBUG - 2017-06-04 18:56:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2017-06-04 18:56:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2017-06-04 18:56:48 --> Total execution time: 1.1032
+DEBUG - 2017-06-04 19:07:52 --> UTF-8 Support Enabled
+DEBUG - 2017-06-04 19:07:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-04 19:07:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-04 19:07:53 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/brgmasuk/views/brgmasuk.php
+DEBUG - 2017-06-04 19:07:53 --> Total execution time: 1.1150
+DEBUG - 2017-06-04 19:07:59 --> UTF-8 Support Enabled
+DEBUG - 2017-06-04 19:07:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-04 19:08:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-04 19:08:00 --> Total execution time: 1.1268
+DEBUG - 2017-06-04 19:08:22 --> UTF-8 Support Enabled
+DEBUG - 2017-06-04 19:08:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-04 19:08:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-04 19:08:23 --> Total execution time: 1.1154
+DEBUG - 2017-06-04 19:08:32 --> UTF-8 Support Enabled
+DEBUG - 2017-06-04 19:08:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-04 19:08:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-04 19:08:33 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/brgmasuk/models/Mbrg_supp.php
+ERROR - 2017-06-04 19:08:33 --> Query error: Table 'hmvc.brg_masuk' doesn't exist - Invalid query: INSERT INTO `brg_masuk` (`kd_barang`, `kd_supplier`, `jumlah`, `ket`) VALUES ('01.003.2008.000004', 'JOGI', '1', 'Bersih Terawat')
+DEBUG - 2017-06-04 19:12:17 --> UTF-8 Support Enabled
+DEBUG - 2017-06-04 19:12:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-04 19:12:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-04 19:12:19 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/brgmasuk/models/Mbrg_supp.php
+DEBUG - 2017-06-04 19:12:19 --> Total execution time: 1.2106

@@ -116,7 +116,7 @@
 		e.preventDefault();
 		$.ajax({
 			type:'POST',
-            url:'http://localhost:81/mus/index.php/transaksi/brgmasuk/simpan',
+            url:'<?php echo base_url('/index.php/brgmasuk/simpan')?>',
 			dataType: "json",
             data:$(this).serialize(),
             success:function(result){

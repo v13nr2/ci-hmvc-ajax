@@ -33,7 +33,7 @@ class Mbrg_supp extends CI_Model {
 	}
 	
 	public function save($data){
-		$this->db->insert('brg_masuk',$data);
+		$this->db->insert('nng_transaksi',$data);
         return $this->db->affected_rows();
 	}
 	
