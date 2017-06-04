@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //$config['base_url'] = 'http://127.0.0.1:4001/project/';
 
-$config['base_url'] = 'http://localhost/hmvc/ci-hmvc-ajax';
+$config['base_url'] = 'http://localhost:81/hmvc/ci-hmvc-ajax';
 
 /*
 |--------------------------------------------------------------------------
