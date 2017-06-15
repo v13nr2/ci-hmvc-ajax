@@ -52,7 +52,7 @@ function scroll(){
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="<?php echo base_url();?>" class="logo">
+    <a href="<?php echo base_url('index.php/home');?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -384,7 +384,7 @@ function scroll(){
         <li><a href="#" onclick="loadContent('documentation');"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
         <li class="header">Demo</li>
         <li><a href="#" onclick="loadContent('brgmasuk');"><i class="fa fa-circle-o text-red"></i> <span>Master Detail</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+        <li><a href="#" onclick="loadContent('galeri');"><i class="fa fa-circle-o text-yellow"></i> <span>Galeri</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
       </ul>
     </section>
