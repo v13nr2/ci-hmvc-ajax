@@ -26,11 +26,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="form-group">
                   <label for="nama">Rekening Induk</label>
-                  <input type="text" class="form-control" id="coa" placeholder="coa">
+                  <input type="text" class="form-control" id="coainduk" placeholder="Rekening Induk">
                 </div>
                 <div class="form-group">
                   <label for="group">Nama Rekening</label>
-                  <input type="text" class="form-control" id="kelompok" placeholder="Nama">
+                  <input type="text" class="form-control" id="coa" placeholder="coa">
+                </div>
+                <div class="form-group">
+                  <label for="group">Kode Rekening</label>
+                  <input type="text" class="form-control" id="kodecoa" placeholder="kodecoa">
                 </div>
                 <div class="form-group">
                   <label for="group">Transaksi</label>
@@ -102,4 +106,32 @@ $(document).ready(function(){
 				}
 		  });
 	}
+	
+	function editx(x){
+		$.ajax({
+			  type:"post",
+			  url:"<?php echo base_url('index.php/rekening/loadx');?>",
+			  data:"id="+x,
+			  dataType: 'json',
+			  success:  function(response){	
+					//for(var x=0;x<response.data.length;x++){
+					  $("#coa").val(response.data[0]['nama']);
+					  $("#kodecoa").val(response.data[0]['kode']);
+					  $("#transaksi").val(response.data[0]['transaksi']);
+					  $("#group").val(response.data[0]['group']);
+					  $("#coainduk").val(response.data[0]['kodeinduk']);
+					  
+					  $("#password").val('');
+					  $("#password2").val('');
+					  $("#password").attr("placeholder", "Biarkan kosong jika tidak diganti");
+					  $("#password2").attr("placeholder", "Biarkan kosong jika tidak diganti");
+					  idx = response.data[0]['id'];
+					//}  
+			  },
+			  error: function(){
+					alert("eror");
+				}
+		  });
+	}
+	
 </script>

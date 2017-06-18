@@ -105,8 +105,8 @@ class Rekening extends BaseController
 								<td align='left' width='30%'>".$row4["nama"]."</td>
 								<td align='center' width='10%'>".$row4["transaksi"]."</td>
 								<td align='center' width='10%'>
-								<button class='btn btn-danger btn-sm' onclick=\"deletex('".$row3["id"]."')\"><i class='fa fa-trash-o'></i></button>
-								<button class='btn btn-yellow btn-sm' onclick=\"editx('".$row3["id"]."')\"><i class='fa fa-edit'></i></button>
+								<button class='btn btn-danger btn-sm' onclick=\"deletex('".$row4["id"]."')\"><i class='fa fa-trash-o'></i></button>
+								<button class='btn btn-yellow btn-sm' onclick=\"editx('".$row4["id"]."')\"><i class='fa fa-edit'></i></button>
 								</td>
 							</tr>"; 
 						}
@@ -131,8 +131,8 @@ class Rekening extends BaseController
 	}
 	
 	public function loadx(){
-		$this->load->model('user/User_model');
-		$data = $this->User_model->loadx( $this->input->post('id') );
+		$this->load->model('rekening/rekening_model');
+		$data = $this->rekening_model->loadx( $this->input->post('id') );
 		$result = array(
     		'success' => true,
     		'data' => $data
