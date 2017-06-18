@@ -11,6 +11,24 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+-- Dumping structure for table hmvc.ci_ajax_gallery
+DROP TABLE IF EXISTS `ci_ajax_gallery`;
+CREATE TABLE IF NOT EXISTS `ci_ajax_gallery` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `path` varchar(255) DEFAULT NULL,
+  `thumb_path` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.ci_ajax_gallery: ~3 rows (approximately)
+/*!40000 ALTER TABLE `ci_ajax_gallery` DISABLE KEYS */;
+INSERT INTO `ci_ajax_gallery` (`id`, `path`, `thumb_path`, `created_at`) VALUES
+	(9, 'KIOSK.jpg', 'KIOSK_thumb.jpg', '2017-06-15 16:11:03'),
+	(10, 'pin.png', 'pin_thumb.png', '2017-06-15 16:11:03'),
+	(11, 'tv.png', 'tv_thumb.png', '2017-06-15 16:20:27');
+/*!40000 ALTER TABLE `ci_ajax_gallery` ENABLE KEYS */;
+
 -- Dumping structure for table hmvc.event
 DROP TABLE IF EXISTS `event`;
 CREATE TABLE IF NOT EXISTS `event` (
@@ -81,10 +99,10 @@ CREATE TABLE IF NOT EXISTS `nng_chat` (
 -- Dumping data for table hmvc.nng_chat: ~4 rows (approximately)
 /*!40000 ALTER TABLE `nng_chat` DISABLE KEYS */;
 INSERT INTO `nng_chat` (`id`, `usename`, `teks`, `waktu`, `status`) VALUES
-	(1, 'ATAKU', 'Selamat datang di aplikasi offline Aset Desa', '2017-05-16 18:49:39', 1),
-	(2, 'ATAKU', 'Kerja Kerja Kerja....', '2017-05-16 20:39:15', 1),
-	(3, 'admin', '', '2017-05-22 03:57:36', 1),
-	(4, 'admin', 'hmmmm', '2017-05-22 03:57:43', 1);
+	(1, 'ATAKU', 'Selamat datang di aplikasi offline Aset Desa', '2017-05-16 17:49:39', 1),
+	(2, 'ATAKU', 'Kerja Kerja Kerja....', '2017-05-16 19:39:15', 1),
+	(3, 'admin', '', '2017-05-22 02:57:36', 1),
+	(4, 'admin', 'hmmmm', '2017-05-22 02:57:43', 1);
 /*!40000 ALTER TABLE `nng_chat` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_menu
@@ -114,12 +132,12 @@ INSERT INTO `nng_menu` (`id`, `parent_id`, `title`, `url`, `file`, `modul`, `rou
 	(4, 0, 'General Ledger', '', '', '', '', 'world_link.png', 1, 0, 1, 1),
 	(5, 4, 'Setup', '', '', '', '', '', 1, 0, 1, 1),
 	(6, 1, 'Setup', '', '', '', '', '', 1, 0, 1, 1),
-	(20, 5, 'Rekening', 'gli/index.php?mn=rek', 'rekeningp_ls', 'accounting/gli', '', '', 1, 0, 1, 1),
+	(20, 5, 'Rekening', 'gli/index.php?mn=rek', 'rekening/rekening_v', 'accounting/gli', '', '', 1, 0, 1, 1),
 	(21, 5, 'Rekening Pembantu', 'gli/index.php?mn=rekp', '', '', '', '', 1, 0, 0, 1),
 	(22, 6, 'Divisi', 'gli/index.php?mn=div', 'divisi_ls', 'accounting/gli', '', '', 1, 0, 1, 1),
 	(23, 4, 'Transaksi', '', '', '', '', '', 1, 0, 1, 1),
 	(24, 4, 'Laporan', '', '', '', '', '', 1, 0, 1, 1),
-	(25, 23, 'Jurnal Umum', 'gli/index.php?mn=trans_jurnal', 'jurnal_form', 'accounting/gli', '', '', 1, 0, 1, 1),
+	(25, 23, 'Jurnal Umum', 'gli/index.php?mn=trans_jurnal', 'acc_jurnalumum', 'accounting/gli', '', '', 1, 0, 1, 1),
 	(26, 5, 'Inventaris', 'gli/index.php?mn=inv', 'inventaris_ls', 'accounting/gli', '', '', 1, 0, 1, 1),
 	(27, 24, 'Data', 'gli/index.php?mn=jurnal', 'jurnal_ls', 'accounting/gli', '', '', 1, 0, 1, 1),
 	(28, 24, 'Jurnal', 'gli/index.php?mn=lap_jurnal', 'laporan_jurnal', 'accounting/gli', '', '', 1, 1, 1, 1),
@@ -216,6 +234,32 @@ INSERT INTO `nng_menu_akses` (`username`, `menu_id`) VALUES
 	('admin', 19);
 /*!40000 ALTER TABLE `nng_menu_akses` ENABLE KEYS */;
 
+-- Dumping structure for table hmvc.nng_rekening
+DROP TABLE IF EXISTS `nng_rekening`;
+CREATE TABLE IF NOT EXISTS `nng_rekening` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `parent_id` int(11) NOT NULL DEFAULT '0',
+  `nama` varchar(50) NOT NULL,
+  `kode` varchar(50) NOT NULL,
+  `group` char(1) NOT NULL,
+  `transaksi` char(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.nng_rekening: ~9 rows (approximately)
+/*!40000 ALTER TABLE `nng_rekening` DISABLE KEYS */;
+INSERT INTO `nng_rekening` (`id`, `parent_id`, `nama`, `kode`, `group`, `transaksi`) VALUES
+	(1, 0, 'ASET', '1', 'Y', 'T'),
+	(2, 0, 'KEWAJIBAN', '2', 'Y', 'T'),
+	(3, 0, 'ASET NETO', '3', 'Y', 'T'),
+	(4, 0, 'PENERIMAAN', '4', 'Y', 'T'),
+	(5, 0, 'PENGELUARAN', '5', 'Y', 'T'),
+	(6, 1, 'Aset Lancar', '1.0', 'Y', 'T'),
+	(7, 6, 'Kas', '1.0.1', 'Y', 'T'),
+	(8, 7, 'Kas Kecil', '1.0.1.0', 'T', 'Y'),
+	(9, 7, 'Kas', '1.0.1.1', 'T', 'Y');
+/*!40000 ALTER TABLE `nng_rekening` ENABLE KEYS */;
+
 -- Dumping structure for table hmvc.nng_supplier
 DROP TABLE IF EXISTS `nng_supplier`;
 CREATE TABLE IF NOT EXISTS `nng_supplier` (
@@ -272,7 +316,7 @@ CREATE TABLE IF NOT EXISTS `nng_todo` (
 -- Dumping data for table hmvc.nng_todo: ~1 rows (approximately)
 /*!40000 ALTER TABLE `nng_todo` DISABLE KEYS */;
 INSERT INTO `nng_todo` (`id`, `todo`, `waktu`, `status`) VALUES
-	(2, 'Nunggu Program Aset konawe Aset........', '2017-05-22 03:46:20', 1);
+	(2, 'Nunggu Program Aset konawe Aset........', '2017-05-22 02:46:20', 1);
 /*!40000 ALTER TABLE `nng_todo` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_transaksi

@@ -17,6 +17,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <form role="form">
               <div class="box-body">
                 <div class="form-group">
+                  <label for="group">Group ?</label>
+                  <select name="group" class="form-control"  id="group">
+						<option value="">-Pilih-</option>
+						<option value="Y">Ya</option>
+						<option value="T">Tidak</option>
+				  </select>
+                </div>
+                <div class="form-group">
                   <label for="nama">Rekening Induk</label>
                   <input type="text" class="form-control" id="coa" placeholder="coa">
                 </div>
