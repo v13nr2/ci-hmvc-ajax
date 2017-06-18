@@ -564,3 +564,44 @@ DEBUG - 2017-06-15 11:03:05 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2017-06-15 11:03:05 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
 DEBUG - 2017-06-15 11:03:05 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/views/galeri_v.php
 DEBUG - 2017-06-15 11:03:06 --> Total execution time: 1.1149
+DEBUG - 2017-06-15 11:10:52 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:10:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:10:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:10:53 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:10:53 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/views/galeri_v.php
+DEBUG - 2017-06-15 11:10:53 --> Total execution time: 1.1404
+DEBUG - 2017-06-15 11:11:02 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:11:02 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:11:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:11:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:11:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:11:03 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:11:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:11:03 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:11:03 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:11:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:11:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:11:04 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:11:04 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/views/galeri_v.php
+DEBUG - 2017-06-15 11:11:04 --> Total execution time: 1.1467
+DEBUG - 2017-06-15 11:20:09 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:20:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:20:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:20:10 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/brgmasuk/views/brgmasuk.php
+DEBUG - 2017-06-15 11:20:10 --> Total execution time: 1.1206
+DEBUG - 2017-06-15 11:20:12 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:20:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:20:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:20:14 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:20:14 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/views/galeri_v.php
+DEBUG - 2017-06-15 11:20:14 --> Total execution time: 1.2750
+DEBUG - 2017-06-15 11:20:26 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:20:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:20:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:20:27 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:20:27 --> UTF-8 Support Enabled
+DEBUG - 2017-06-15 11:20:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-15 11:20:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-15 11:20:29 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/models/Gallery.php
+DEBUG - 2017-06-15 11:20:29 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/galeri/views/galeri_v.php
+DEBUG - 2017-06-15 11:20:29 --> Total execution time: 1.1949
