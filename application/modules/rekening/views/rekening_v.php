@@ -14,7 +14,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form role="form">
+            <form role="form" id="Form">
+			<input type="hidden" name="id" id="id" value="">
               <div class="box-body">
                 <div class="form-group">
                   <label for="group">Group ?</label>
@@ -26,15 +27,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="form-group">
                   <label for="nama">Rekening Induk</label>
-                  <input type="text" class="form-control" id="coainduk" placeholder="Rekening Induk">
+                  <input type="text" class="form-control" name="coainduk" id="coainduk" placeholder="Rekening Induk">
                 </div>
                 <div class="form-group">
                   <label for="group">Nama Rekening</label>
-                  <input type="text" class="form-control" id="coa" placeholder="coa">
+                  <input type="text" class="form-control" name="coa"  id="coa" placeholder="coa">
                 </div>
                 <div class="form-group">
                   <label for="group">Kode Rekening</label>
-                  <input type="text" class="form-control" id="kodecoa" placeholder="kodecoa">
+                  <input type="text" class="form-control" name="kodecoa"  id="kodecoa" placeholder="kodecoa">
                 </div>
                 <div class="form-group">
                   <label for="group">Transaksi</label>
@@ -115,23 +116,42 @@ $(document).ready(function(){
 			  dataType: 'json',
 			  success:  function(response){	
 					//for(var x=0;x<response.data.length;x++){
+					  $("#id").val(response.data[0]['id']);
 					  $("#coa").val(response.data[0]['nama']);
 					  $("#kodecoa").val(response.data[0]['kode']);
 					  $("#transaksi").val(response.data[0]['transaksi']);
 					  $("#group").val(response.data[0]['group']);
 					  $("#coainduk").val(response.data[0]['kodeinduk']);
-					  
-					  $("#password").val('');
-					  $("#password2").val('');
-					  $("#password").attr("placeholder", "Biarkan kosong jika tidak diganti");
-					  $("#password2").attr("placeholder", "Biarkan kosong jika tidak diganti");
-					  idx = response.data[0]['id'];
 					//}  
 			  },
 			  error: function(){
 					alert("eror");
 				}
 		  });
+	}
+	$('#submit').click(function(){
+		simpan();
+	});
+	function simpan(){
+		
+		  
+	  $.ajax({
+		  type:"post",
+		  url:"<?php echo base_url('index.php/rekening/create');?>",
+		  data:$('Form').serialize(),
+		  dataType: 'json',
+		  success:
+		  function(response){
+			 for (var x = 0; x < response.results.length; x++) {
+				alert(response['results'][0]['message']);
+				tampil_append_row();
+			}
+		  },
+		  error:
+			function(){
+				alert("Error. Data Tidak Tersimpan");
+			}
+	  })
 	}
 	
 </script>

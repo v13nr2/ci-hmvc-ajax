@@ -25,8 +25,8 @@ class Rekening extends BaseController
 	public function create()
 	{
 
-		$this->load->model('user/User_model'); 
-			$simpan = $this->User_model->set_user();
+		$this->load->model('rekening/rekening_model'); 
+			$simpan = $this->rekening_model->set_coa();
 			if($simpan){
 			die("{\"total\":1, \"status\": \"Gagal\","
 					. "\"results\":[{"

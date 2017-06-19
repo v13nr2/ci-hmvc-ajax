@@ -48,4 +48,36 @@ class rekening_model extends CI_Model {
 		return $query->result_array();
 	}
 	
+	
+	public function set_coa()
+	{
+		$this->load->helper('url');
+		
+			$id = $this->input->post('id');
+			
+		
+			$data = array(
+				'id' => $this->input->post('id'),
+				'nama' => $this->input->post('coa'),
+				'kode' => $this->input->post('kodecoa'),
+				'group' => $this->input->post('group'),
+				'transaksi' => $this->input->post('transaksi')
+			);
+		
+		if ($id == '') {
+			return $this->db->insert('nng_rekening', $data);
+		
+		}
+		else {
+		
+			$this->db->where('id', $id);
+			return $this->db->update('nng_rekening', $data);
+		
+		}
+		
+		
+	}
+	
+	
+	
 }
