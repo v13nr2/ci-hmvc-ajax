@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <table id="tableCOA" class="table table-bordered table-striped">
+              <table id="tableCOA" class="table display table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
                   <th>Add</th>
@@ -83,12 +83,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 </div>
 <script>
+$(document).ready(function() {
+    $('#tableCOA').DataTable();
+} );
 function nextCOA(){
 	konfirm = confirm("Tambah anak Rekening ?");
 }
 $(document).ready(function(){
 
-
+	$('#baru').click(function(){
+		$("#id").val('');
+	    $("#coa").val('');
+	    $("#coainduk").val('');
+	    $('#kodecoa').val('');
+		$("#group").val('');
+	    $("#transaksi").val('');
+	    
+	});
+		
+	
 });
 	tampil_append_row();
 	

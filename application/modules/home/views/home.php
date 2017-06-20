@@ -826,6 +826,11 @@ function scroll(){
 <script src="<?php echo base_url('assets/AdminLTE-2.3.11/plugins/jQuery/jquery-2.2.3.min.js');?>"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="<?php echo base_url('assets/js/jquery-ui.min.js');?>"></script>
+
+<script src="<?php echo base_url('assets/DataTables-1.10.15/media/js/jquery.dataTables.js');?>"></script>
+<script src="<?php echo base_url('assets/DataTables-1.10.15/media/js/dataTables.bootstrap.min.js');?>"></script>
+
+<link rel="stylesheet" href="<?php echo base_url('assets/DataTables-1.10.15/media/css/dataTables.bootstrap.min.css');?>">
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
