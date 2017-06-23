@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <script>
 $(document).ready(function() {
-    $('#tableCOA').DataTable();
+    //$('#tableCOA').DataTable();
 } );
 function nextCOA(){
 	konfirm = confirm("Tambah anak Rekening ?");
@@ -114,6 +114,9 @@ $(document).ready(function(){
 			  success:  function(response){	
 					$('.appendx').remove();
 					$('#tableCOA').append(response);
+					$('#tableCOA').DataTable( {
+							"order": [[ 1, "asc" ]]
+						} );
 			  },
 			  error: function(){
 					alert("eror");
