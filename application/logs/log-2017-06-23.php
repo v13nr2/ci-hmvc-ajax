@@ -222,3 +222,223 @@ DEBUG - 2017-06-23 11:22:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2017-06-23 11:22:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2017-06-23 11:22:18 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
 DEBUG - 2017-06-23 11:22:18 --> Total execution time: 1.0900
+DEBUG - 2017-06-23 15:49:25 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:27 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:28 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/login/views/login.php
+DEBUG - 2017-06-23 15:49:28 --> Total execution time: 1.2855
+DEBUG - 2017-06-23 15:49:37 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:39 --> Total execution time: 1.5017
+DEBUG - 2017-06-23 15:49:39 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:40 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:40 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/home/views/home.php
+DEBUG - 2017-06-23 15:49:40 --> Total execution time: 1.5765
+DEBUG - 2017-06-23 15:49:41 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:41 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-23 15:49:41 --> 404 Page Not Found: /index
+DEBUG - 2017-06-23 15:49:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:41 --> Total execution time: 1.0869
+DEBUG - 2017-06-23 15:49:42 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:42 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:43 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/todo/models/Todo_model.php
+DEBUG - 2017-06-23 15:49:43 --> Total execution time: 1.2437
+DEBUG - 2017-06-23 15:49:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:43 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/chat/models/Chat_model.php
+DEBUG - 2017-06-23 15:49:43 --> Total execution time: 1.2049
+DEBUG - 2017-06-23 15:49:50 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:51 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:49:51 --> Total execution time: 1.1599
+DEBUG - 2017-06-23 15:49:51 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:49:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:49:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:49:52 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:49:52 --> Total execution time: 1.2643
+DEBUG - 2017-06-23 15:51:20 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:21 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:21 --> Total execution time: 1.1132
+DEBUG - 2017-06-23 15:51:25 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:26 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:28 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:29 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:29 --> Total execution time: 1.1382
+DEBUG - 2017-06-23 15:51:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:46 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:46 --> Total execution time: 1.1127
+DEBUG - 2017-06-23 15:51:49 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:50 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:52 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:51:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:51:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:51:53 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:51:53 --> Total execution time: 1.1428
+DEBUG - 2017-06-23 15:52:42 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:52:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:52:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:52:44 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/login/views/login.php
+DEBUG - 2017-06-23 15:52:44 --> Total execution time: 1.1363
+DEBUG - 2017-06-23 15:55:15 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:16 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:55:16 --> Total execution time: 1.1060
+DEBUG - 2017-06-23 15:55:16 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:17 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:17 --> Total execution time: 1.1246
+DEBUG - 2017-06-23 15:55:24 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:25 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:25 --> Total execution time: 1.1092
+DEBUG - 2017-06-23 15:55:28 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:29 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:31 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:32 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:32 --> Total execution time: 1.1089
+DEBUG - 2017-06-23 15:55:37 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:38 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:38 --> Total execution time: 1.1069
+DEBUG - 2017-06-23 15:55:44 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:45 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:46 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:47 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:47 --> Total execution time: 1.1927
+DEBUG - 2017-06-23 15:55:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:55 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:56 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:55:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:55:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:55:57 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:55:57 --> Total execution time: 1.1552
+DEBUG - 2017-06-23 15:56:01 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:02 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:56:02 --> Total execution time: 1.1017
+DEBUG - 2017-06-23 15:56:02 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:03 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:56:03 --> Total execution time: 1.1521
+DEBUG - 2017-06-23 15:56:09 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:10 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:56:10 --> Total execution time: 1.1208
+DEBUG - 2017-06-23 15:56:39 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:40 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:56:40 --> Total execution time: 1.0912
+DEBUG - 2017-06-23 15:56:40 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:41 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:56:41 --> Total execution time: 1.1271
+DEBUG - 2017-06-23 15:56:55 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:56 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:56:56 --> Total execution time: 1.0977
+DEBUG - 2017-06-23 15:56:56 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:56:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:56:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:56:57 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:56:57 --> Total execution time: 1.1403
+DEBUG - 2017-06-23 15:58:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:11 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/views/rekening_v.php
+DEBUG - 2017-06-23 15:58:11 --> Total execution time: 1.1033
+DEBUG - 2017-06-23 15:58:11 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:12 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:12 --> Total execution time: 1.1516
+DEBUG - 2017-06-23 15:58:15 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:16 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:16 --> Total execution time: 1.1194
+DEBUG - 2017-06-23 15:58:21 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:22 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:24 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:25 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:25 --> Total execution time: 1.1175
+DEBUG - 2017-06-23 15:58:46 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:47 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:48 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:49 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:49 --> Total execution time: 1.1855
+DEBUG - 2017-06-23 15:58:56 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:57 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:58 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 15:58:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 15:58:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 15:58:59 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 15:58:59 --> Total execution time: 1.1511
+DEBUG - 2017-06-23 16:04:35 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 16:04:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 16:04:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 16:04:36 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 16:04:38 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 16:04:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 16:04:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 16:04:39 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-06-23 16:04:39 --> Total execution time: 1.1081
+DEBUG - 2017-06-23 16:06:03 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 16:06:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 16:06:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 16:06:04 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+ERROR - 2017-06-23 16:06:04 --> Query error: Duplicate entry '' for key 'kode' - Invalid query: INSERT INTO `nng_rekening` (`id`, `nama`, `kode`, `group`, `transaksi`) VALUES ('', '', '', '', '')
+DEBUG - 2017-06-23 17:32:50 --> UTF-8 Support Enabled
+DEBUG - 2017-06-23 17:32:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-23 17:32:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-23 17:32:54 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/home/views/home.php
+DEBUG - 2017-06-23 17:32:54 --> Total execution time: 5.5309

@@ -115,6 +115,8 @@ $(document).ready(function(){
 					$('.appendx').remove();
 					$('#tableCOA').append(response);
 					$('#tableCOA').DataTable( {
+							paging: false,
+							searching: false,
 							"order": [[ 1, "asc" ]]
 						} );
 			  },
