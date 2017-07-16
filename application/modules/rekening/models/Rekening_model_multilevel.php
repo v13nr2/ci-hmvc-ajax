@@ -12,7 +12,8 @@ class rekening_model extends CI_Model {
 	{
 		if ($cari == "")
 		{
-			$query = $this->db->query("SELECT A.* FROM nng_rekening A ORDER BY norek");
+			$query = $this->db->get_where('nng_rekening',array('parent_id' => 0));
+			$this->db->order_by("kode");
 			return $query->result_array();
 		}
 		

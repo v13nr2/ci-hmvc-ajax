@@ -66,10 +66,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <table id="tableCOA" class="table display table-bordered table-striped table-responsive">
                 <thead>
                 <tr>
-                  <th>No</th>
+                  <th>Add</th>
                   <th>Kode Rekening</th>
                   <th>Nama Rekening</th>
-                  <th>Saldo Normal</th>
+                  <th>Transaction</th>
                   <th align="center">Action</th>
                 </tr>
                 </thead>
@@ -115,8 +115,8 @@ $(document).ready(function(){
 					$('.appendx').remove();
 					$('#tableCOA').append(response);
 					$('#tableCOA').DataTable( {
-							paging: true,
-							searching: true,
+							paging: false,
+							searching: false,
 							"order": [[ 1, "asc" ]]
 						} );
 			  },

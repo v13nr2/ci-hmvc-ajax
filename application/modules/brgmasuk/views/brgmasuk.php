@@ -29,10 +29,38 @@
 						</div>
 					</div>
 					<div class="col-md-6">
+						<div class="form-group ui-widget">
+							<label class="control-label col-sm-3" for="nama">No. Nota</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="nonota" name="nonota" placeholder="Nomor Nota" required>
+								<input type="hidden" class="form-control" id="nonota" name="nonota"/>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
 						<div class="form-group">
-							<label class="control-label col-sm-3" for="nama">Tanggal</label>
+							<label class="control-label col-sm-3" for="nama">Tanggal Pembelian</label>
 							<div class="col-sm-6">
 								<input type="text" name="tgl" class="form-control" id="tgl" placeholder="Tanggal" required>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="nama">Tanggal Jatuh Tempo</label>
+							<div class="col-sm-6">
+								<input type="text" name="tgljatem" class="form-control" id="tgljatem" placeholder="Tanggal" required>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="nama">Pembayaran</label>
+							<div class="col-sm-6">
+								<select name="pembayaran" id="pembayaran"  class="form-control" >
+									<option value="Lunas">Lunas</option>
+									<option value="Kredit">Kredit</option>
+								</select>
 							</div>
 						</div>
 					</div>
@@ -52,7 +80,9 @@
 										<tr>
 											<th>Nama Barang</th>
 											<th>Qty</th>
-											<th>Keterangan</th>
+											<th>Satuan</th>
+											<th>Harga</th>
+											<th>Discount</th>
 											<th class="text-right">Action</th>
 										</tr>
 									</thead>
@@ -101,6 +131,7 @@
 		});
 		
 		$("#tgl").datepicker();
+		$("#tgljatem").datepicker();
 	});
 	
 	var i=0;
@@ -146,7 +177,13 @@
 		html_out += "<input type='hidden' name='txt_kdbrg[]' id='txtbrg1"+id+"'/></td>";
 		html_out += "<td style='width:80px'>";
 		html_out += "<input type='text' class='form-control' name='txt_qty[]' placeholder='QTY' onkeypress='return IsNumeric(event);' required/></td>";
-		html_out += "<td><input type='text' class='form-control' name='txt_ket[]' placeholder='Keterangan'/></td>";
+		
+		html_out += "<td style='width:100px'>";
+		html_out += "<input type='text' class='form-control' name='txt_satuan[]' placeholder='Satuan' required/></td>";
+		
+		html_out += "<td>";
+		html_out += "<input type='text' class='form-control' name='txt_harga[]' placeholder='Harga' required/></td>";
+		html_out += "<td><input type='text' class='form-control' name='txt_ket[]' placeholder='Discount'/></td>";
 		html_out += "<td class='text-right'><a href='#' onclick='hapus("+id+")' class='btn btn-sm btn-danger'>Delete</a></td>";
 		html_out += "</tr>";
 		return html_out;
