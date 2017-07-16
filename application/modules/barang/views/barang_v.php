@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- general form elements -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">COA Form</h3>
+              <h3 class="box-title">Form Barang</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="col-md-8">
 			<div class="box">
             <div class="box-header">
-              <h3 class="box-title">Data Rekening</h3>&nbsp;&nbsp;
+              <h3 class="box-title">Data Barang</h3>&nbsp;&nbsp;
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -67,9 +67,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <thead>
                 <tr>
                   <th>No</th>
-                  <th>Kode Rekening</th>
-                  <th>Nama Rekening</th>
-                  <th>Saldo Normal</th>
+                  <th>Nama Barang</th>
+                  <th>Kode Barang</th>
+                  <th>Modal</th>
                   <th align="center">Action</th>
                 </tr>
                 </thead>
@@ -108,7 +108,7 @@ $(document).ready(function(){
 	function tampil_append_row(){
 		$.ajax({
 			  type:"get",
-			  url:"<?php echo base_url('index.php/rekening/display');?>",
+			  url:"<?php echo base_url('index.php/barang/display');?>",
 			  data:"cari=",
 			  dataType: 'html',
 			  success:  function(response){	
@@ -129,7 +129,7 @@ $(document).ready(function(){
 	function editx(x){
 		$.ajax({
 			  type:"post",
-			  url:"<?php echo base_url('index.php/rekening/loadx');?>",
+			  url:"<?php echo base_url('index.php/barang/loadx');?>",
 			  data:"id="+x,
 			  dataType: 'json',
 			  success:  function(response){	
@@ -155,7 +155,7 @@ $(document).ready(function(){
 		  
 	  $.ajax({
 		  type:"post",
-		  url:"<?php echo base_url('index.php/rekening/create');?>",
+		  url:"<?php echo base_url('index.php/barang/create');?>",
 		  data:$('Form').serialize(),
 		  dataType: 'json',
 		  success:

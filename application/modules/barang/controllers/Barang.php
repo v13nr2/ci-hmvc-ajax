@@ -52,18 +52,18 @@ class Barang extends BaseController
 	function display(){
 		
 		$this->load->model('barang_model'); 
-		$data['list'] = $this->barang_model->get_rekening();
+		$data['list'] = $this->barang_model->get_barang();
 		$no = 1;
 		foreach($data['list'] as $row)
         {	
 			echo "<tr class='appendx'> 
 				<td align='left' width='5%'>".$no."</td>
-				<td align='left' width='15%'>".$row["norek"]."</td>
-				<td align='left' width='30%'>".$row["namarek"]."</td>
-				<td align='center' width='10%'>".$row["saldonormal"]."</td>
+				<td align='left' width='30%'>".$row["namabrg"]."</td>
+				<td align='left' width='15%'>".$row["kodebrg"]."</td>
+				<td align='right' width='10%'>".number_format($row["modal"])."</td>
 				<td align='center' width='10%'>
-				<button class='btn btn-danger btn-sm' onclick=\"deletex('".$row["norek"]."')\"><i class='fa fa-trash-o'></i></button>
-				<button class='btn btn-yellow btn-sm' onclick=\"editx('".$row["norek"]."')\"><i class='fa fa-edit'></i></button>
+				<button class='btn btn-danger btn-sm' onclick=\"deletex('".$row["kodebrg"]."')\"><i class='fa fa-trash-o'></i></button>
+				<button class='btn btn-yellow btn-sm' onclick=\"editx('".$row["kodebrg"]."')\"><i class='fa fa-edit'></i></button>
 				</td>
 			</tr>"; 
 			$no++;

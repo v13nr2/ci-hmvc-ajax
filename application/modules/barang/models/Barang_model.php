@@ -1,5 +1,5 @@
 <?php
-class rekening_model extends CI_Model {
+class Barang_model extends CI_Model {
 
 	public function __construct()
 	{
@@ -8,15 +8,15 @@ class rekening_model extends CI_Model {
 
 
 
-	public function get_rekening($cari = "")
+	public function get_barang($cari = "")
 	{
 		if ($cari == "")
 		{
-			$query = $this->db->query("SELECT A.* FROM nng_rekening A ORDER BY norek");
+			$query = $this->db->query("SELECT A.* FROM nng_stock A ORDER BY namabrg");
 			return $query->result_array();
 		}
 		
-		$query = $this->db->get_where('nng_rekening', array('id' => $id));
+		$query = $this->db->get_where('nng_stock', array('id' => $id));
 		return $query->row_array();
 	}
 	

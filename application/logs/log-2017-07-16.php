@@ -636,3 +636,93 @@ DEBUG - 2017-07-16 11:57:38 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2017-07-16 11:57:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2017-07-16 11:57:39 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
 DEBUG - 2017-07-16 11:57:39 --> Total execution time: 1.1224
+DEBUG - 2017-07-16 13:19:13 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 13:19:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 13:19:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 13:19:15 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 13:19:15 --> Total execution time: 1.2156
+DEBUG - 2017-07-16 13:19:15 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 13:19:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 13:19:16 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 13:19:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 13:19:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 13:19:16 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-07-16 13:19:16 --> Total execution time: 1.2069
+DEBUG - 2017-07-16 13:19:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 13:19:17 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 13:19:17 --> Total execution time: 1.1542
+DEBUG - 2017-07-16 13:19:17 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 13:19:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 13:19:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 13:19:18 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-07-16 13:19:18 --> Total execution time: 1.1464
+DEBUG - 2017-07-16 14:03:25 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:03:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:03:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:03:26 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:03:26 --> Total execution time: 1.2121
+DEBUG - 2017-07-16 14:03:26 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:03:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:03:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:03:27 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/rekening/models/Rekening_model.php
+DEBUG - 2017-07-16 14:03:27 --> Total execution time: 1.1527
+DEBUG - 2017-07-16 14:04:57 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:04:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:04:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:04:59 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:04:59 --> Total execution time: 1.1618
+DEBUG - 2017-07-16 14:04:59 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:04:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:05:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:05:00 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+ERROR - 2017-07-16 14:05:00 --> Severity: Error --> Class 'Barang_model' not found D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\third_party\MX\Loader.php 228
+DEBUG - 2017-07-16 14:05:32 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:05:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:05:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:05:34 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:05:34 --> Total execution time: 1.1482
+DEBUG - 2017-07-16 14:05:34 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:05:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:05:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:05:35 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+ERROR - 2017-07-16 14:05:35 --> Severity: Error --> Class 'Barang_model' not found D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\third_party\MX\Loader.php 228
+DEBUG - 2017-07-16 14:06:23 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:06:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:06:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:06:24 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:06:24 --> Total execution time: 1.1920
+DEBUG - 2017-07-16 14:06:24 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:06:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:06:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:06:25 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+DEBUG - 2017-07-16 14:06:26 --> Total execution time: 1.3834
+DEBUG - 2017-07-16 14:07:16 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:07:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:07:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:07:17 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:07:17 --> Total execution time: 1.1506
+DEBUG - 2017-07-16 14:07:17 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:07:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:07:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:07:18 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+DEBUG - 2017-07-16 14:07:18 --> Total execution time: 1.3603
+DEBUG - 2017-07-16 14:08:10 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:08:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:08:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:08:11 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:08:11 --> Total execution time: 1.1397
+DEBUG - 2017-07-16 14:08:11 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:08:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:08:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:08:13 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+DEBUG - 2017-07-16 14:08:13 --> Total execution time: 1.3189
+DEBUG - 2017-07-16 14:09:09 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:09:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:09:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:09:10 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/views/barang_v.php
+DEBUG - 2017-07-16 14:09:10 --> Total execution time: 1.3373
+DEBUG - 2017-07-16 14:09:10 --> UTF-8 Support Enabled
+DEBUG - 2017-07-16 14:09:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-07-16 14:09:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-07-16 14:09:11 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/barang/models/Barang_model.php
+DEBUG - 2017-07-16 14:09:11 --> Total execution time: 1.3484
