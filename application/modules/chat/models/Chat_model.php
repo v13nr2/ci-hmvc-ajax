@@ -11,7 +11,7 @@ if (!defined('BASEPATH'))
 
 /**
  *
- * @author agung
+ * @author Nanang Deh
  */
 class Chat_model extends CI_Model {
 

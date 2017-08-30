@@ -4,13 +4,16 @@ class Publik extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+		$this->load->model('Model_publik');
     }
 
    public function index()
     {
 		
-		$data['title'] = 'Form Barang';
-		$this->load->view('publik/cms/index');
+		$data['title'] = 'Halaman Publik';
+		$data["menu_1"] = $this->Model_publik->get_menu_1();
+		$data["menu_2"] = $this->Model_publik->get_menu_2();
+		$this->load->view('publik/cms/index', $data);
     }
 
 
