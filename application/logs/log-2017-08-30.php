@@ -1361,3 +1361,53 @@ ERROR - 2017-08-30 19:18:13 --> 404 Page Not Found: /index
 DEBUG - 2017-08-30 19:18:13 --> UTF-8 Support Enabled
 DEBUG - 2017-08-30 19:18:13 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2017-08-30 19:18:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:12 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-08-30 19:23:13 --> File loaded: D:\APLIKASI\XAMPP\htdocs\hmvc\ci-hmvc-ajax\application\modules/publik/views/cms/index.php
+DEBUG - 2017-08-30 19:23:13 --> Total execution time: 1.1163
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:13 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:14 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:14 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:14 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:14 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:14 --> UTF-8 Support Enabled
+DEBUG - 2017-08-30 19:23:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-08-30 19:23:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:14 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:14 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:14 --> 404 Page Not Found: /index
+ERROR - 2017-08-30 19:23:14 --> 404 Page Not Found: /index
+DEBUG - 2017-08-30 19:23:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-08-30 19:23:14 --> 404 Page Not Found: /index
