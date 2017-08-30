@@ -1,0 +1,60 @@
+.gt-user-login{margin-right: 12px;}
+.gt-user-login .gt-media{display:inline-block;vertical-align:top;margin-right:9px;width:23px;height:23px;border-radius:100%;}
+.gt-user-login .gt-media img{width:100%;border-radius:100%;}
+.gt-user-login > a{position:relative;display:inline-block;color: #fff;}
+.gt-user-login > a:after{content:"\f107";font-family: 'fontawesome';position:absolute;right:-16px;top:0;color:#fff;}
+.gt_hdr_3_ui_element ul li ul{width:229px;position:absolute;top:104%;left:-10px;z-index:-1;opacity:0;visibility:hidden;transform:translateY(20px);text-align:left;}
+.gt_hdr_3_ui_element ul li ul li{padding:12px 12px;border-bottom:solid 1px #fff;display:block;position:relative;}
+.gt_hdr_3_ui_element ul li ul li:after{content:"\e90d";font-family: 'icomoon';position:absolute;right:10px;top:15px;opacity:0;visibility:hidden;}
+.gt_hdr_3_ui_element ul li ul li.active:after{opacity:1;visibility:visible;}
+.gt_hdr_3_ui_element ul li ul li:hover:after{opacity:1;visibility:visible;}
+.gt_hdr_3_ui_element ul li ul li a{font-size:12px;font-weight:700;display:block;color:#fff;}
+.gt_hdr_3_ui_element ul li ul li a i{font-size:15px;}
+.gt_hdr_3_ui_element ul li:hover ul{opacity:1;visibility:visible;transform:translateY(-2px);z-index:999;}
+.gt_hdr_3_ui_element ul li ul li:hover{background-color: #fff;}
+.gt_hdr_3_ui_element ul li ul li:last-child{border-bottom: 0px;}
+
+/*Modal Login Style Start*/
+.gt-modal button.close{display:inline-block;background:#a7a7a7;height:20px;width:20px;opacity:1;border-radius:50px;box-shadow: inset 1px 1px rgba(0,0,0,.16);color:#FFF;margin:0 -12px 0 0;}
+.gt-modal .modal-dialog{width: 394px;border-radius: 4px;background-color: #fff;box-shadow: 0 2px 6px rgba(0,0,0,.22);margin-top:50px;}
+.gt-modal .modal-content{padding:0 20px;}
+.gt-modal .modal-header{border-bottom:0;padding:9px 0 0;}
+.gt-modal .modal-body{padding:0 20px 15px;}
+.gt-modal .modal-body h4{margin-bottom:11px;font-weight: 600;}
+.gt-modal button.close > span {font-size: 18px;position: relative;top: -3px;}
+.gt-modal .gt-login-form .input-holder label{box-shadow: 0 0 3px rgba(51,144,238,.1);border: solid 1px #c9cacc;display:block;width:100%;padding:8px 12px;position:relative;margin-bottom:11px;}
+.gt-modal .gt-login-form .input-holder label.has-error{border:#ff0000 solid 1px !important;}
+.gt-modal .gt-login-form .input-holder label.has-success{border:#04c448 solid 1px !important;}
+.gt-modal .gt-login-form .input-holder label strong{color:#9a9a9a;font-size:11px;text-transform:uppercase;font-weight:700;margin: 0px 0px 8px;display: block;}
+.gt-modal .gt-login-form .input-holder label i{position:absolute;right:13px;top:19px;font-size:18px;color:#dcdcdc;z-index:99;cursor:pointer;}
+.gt-modal .gt-login-form .input-holder input[type="text"],.gt-modal .gt-login-form .input-holder input[type="email"],.cs-modal .cs-login-form .input-holder input[type="password"]{display:block;font-size:12px;color:#cacaca;border:none;padding:0 24px 0 0;border-radius:0;height:15px;position:relative;top:-5px;font-weight:400;background:none;}
+.gt-modal .gt-login-form .input-holder input[type="submit"]{display:block;background:none;padding:9px 6px;border:solid 1px; border-radius:4px;font-size:16px;font-weight:700;width:100%; text-align:center;margin-top:20px;margin-bottom:0;text-transform:capitalize;}
+.gt-modal .gt-login-form .input-holder input[type="submit"]:hover{color: #fff;}
+.gt-modal .modal-footer{text-align:center;border:0;padding:0 0 15px;overflow:hidden;}
+#header .gt-modal .modal-footer > a{color:#8e8e8e !important;}
+.gt-modal .modal-footer a{display:inline-block;text-align:center;font-size:14px;font-weight:700;margin-bottom:14px;padding:0;text-transform:capitalize;}
+.gt-modal .modal-footer a:hover{border-bottom:none !important;}
+.gt-modal .modal-footer .gt-separator span {color: #a3a3a3;position: relative;font-size:12px;border-radius:50px;border:1px solid #f1f1f1;display:inline-block;width:29px;height:29px;font-weight:700;text-transform:uppercase;line-height:26px;}
+.gt-modal .modal-footer .gt-separator{overflow:hidden;margin-bottom:12px;}
+.gt-modal .modal-footer .gt-separator span::before, 
+.gt-modal .modal-footer .gt-separator span::after {background-color: #e9ebed;bottom: 12px;content: "";height: 1px;left: 100%;margin: 0 0 0 5px;position: absolute;width: 9999px;}
+.gt-modal .modal-footer .gt-separator span::after {left: auto;margin: 0 5px 0 0;right: 100%;}
+.gt-modal .modal-footer .gt-user-social em{font-style:normal;font-size:12px;color:#7f7f7f;font-weight:700;display:block;margin-bottom:15px;}
+.gt-modal .modal-footer .gt-user-social ul{margin:0;padding:0;display:block;text-align:center;width:100%;box-shadow: none;}
+.gt-modal .modal-footer .gt-user-social ul li{display:inline-block;margin:0 3px 0 0;padding:0;}
+.gt-modal .modal-footer .gt-user-social ul li:last-child{margin-right:0;}
+.gt-modal .modal-footer .gt-user-social ul li:hover{background:none !important;border-bottom:0;}
+.gt-modal .modal-footer .gt-user-social ul li a{font-size:14px;color:#FFF;margin:0;padding:6px 16px;text-transform:capitalize;}
+.gt-modal .modal-footer .gt-user-social ul li a:hover{text-decoration:none;}
+.gt-modal .modal-footer .gt-user-social ul li a i{margin-right:10px;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="facebook"] {background: #3b5998 none repeat scroll 0 0;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="twitter"] {background: #00aced none repeat scroll 0 0;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="google-plus"] {background: #ea634e none repeat scroll 0 0;}
+#header .gt-modal .btn-forgot-pass{font-size:14px;color:#999999 !important;text-transform:capitalize;padding:0;margin:0;}
+.gt-modal .btn-forgot-pass i {position:relative;top:-1px;display: inline-block;font-size: 20px;vertical-align: middle;font-weight:normal;margin-right:6px;}
+.gt-modal .gt-user-signup{padding:20px 0 0 0;}
+.gt-modal .gt-user-signup i{display:inline-block;vertical-align:middle;font-size:18px;color:#c2c2c2;margin-right:5px;}
+.gt-modal .gt-user-signup strong{display:inline-block;vertical-align:middle;font-size:14px;color:#979696;}
+.gt-modal .gt-user-signup a{display:inline-block;vertical-align:middle;font-size:14px;text-transform:capitalize;margin:0;}
+.gt-modal #user-forgot-pass .gt-user-signup{padding:0;}
+/*login Form Style End*/

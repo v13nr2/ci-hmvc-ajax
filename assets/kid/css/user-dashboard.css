@@ -1,0 +1,311 @@
+.gt-section-title h2 {
+    font: 700 20px/26px "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+/*----------------------------------------------
+    User Content Style Start 
+ -----------------------------------------------*/
+.gt-user-content{ /*padding:36px 0 50px 0px; margin:0 0 0 0;*/}
+ .gt-user-content .gt-section-title h2{ margin-bottom:20px;}
+ .gt-user-content .gt-field-holder { margin-bottom: 15px;float: left;width: 100%; }
+ .gt-user-content .gt-field-holder h6{ text-transform:uppercase; font-weight: bold;}
+ .gt-user-content .gt-field-holder label {display: inline-block;font-size: 12px;letter-spacing:1px;text-transform: uppercase;font-family: 'Open Sans', sans-serif; margin: 0 0 5px 0;padding: 0;cursor: pointer; font-weight:600;}
+ .gt-user-content .gt-field-holder .gt-field { position: relative; }
+ .gt-user-content .gt-field-holder .gt-field input[type=text] {height: 45px;width: 100%;background-color:#fcfcfc; border: 1px solid #f6f6f6;color: #666;font-size: 13px;line-height: 16px;padding: 10px 12px;border-radius: 2px;}
+ .gt-user-content .gt-field-holder .gt-field.has-error span {bottom: -24px;color: #f16060;font-size: 10px;left: 0;position: absolute;}
+ .gt-user-content .gt-field-holder .gt-field.has-error input[type=text] {border: 1px solid #f16060;position: relative;}
+ .gt-user-content .gt-field-holder .gt-field.has-error .chosen-container-single .chosen-single {border: 1px solid #f16060;position: relative;}
+ .gt-user-content .gt-field-holder .gt-field.has-error .chosen-container .chosen-drop {border: 1px solid #f16060;border-top: 0;}
+ .gt-user-content .gt-field-holder .gt-field.has-error:after {content: '\f071';position: absolute;right: -25px;top: 8px;font-size: 17px;color: #f16060;font-family: 'icomoon';}
+ .gt-user-content .gt-field-holder textarea {width: 100%;background: #fcfcfc;border: 1px solid #f6f6f6;color: #666;font-size: 13px;line-height: 16px;padding: 10px 12px;height: 125px;}
+/* User Chosen Style Start */
+ .gt-user-content .gt-field-holder .chosen-container-single .chosen-single {height: 43px;width: 100%;text-transform: none;background-color: #fcfcfc ;border: 1px solid #f6f6f6;color: #666;font-size: 13px; line-height: 20px;padding: 10px 12px;border-radius: 0;box-shadow: none;margin: 0;}
+ .gt-user-content .gt-field-holder .chosen-container-single .chosen-single div b {background: none;position: relative;}
+ .gt-user-content .gt-field-holder .chosen-container-single .chosen-single div b:after {position: absolute;content: '\f107';font-family: 'fontawesome';right: 11px;top: 11px;color: #b6b6b6;font-size: 15px;}
+ .gt-user-content .gt-field-holder .chosen-container .chosen-drop {background: #fcfcfc;box-shadow: none;border: 1px solid #f6f6f6;border-top: 0;padding: 0 10px;}
+ .gt-user-content .gt-field-holder .chosen-container .chosen-drop .chosen-search input[type=text]{background-color:#fff; border:1px solid #aaa; border-radius: 0;font-family: sans-serif;font-size: 1em;height: auto;line-height: normal;margin: 1px 0;outline: 0 none;padding: 4px 20px 4px 5px;width: 100%;}
+ .gt-user-content .gt-field-holder .chosen-container .chosen-results li {padding: 8px 6px;margin-bottom: 1px;}
+ .gt-user-content .gt-field-holder .chosen-container .chosen-results li.active-result.result-selected { color: #fff; }
+/* User Chosen Style End */
+/* User Switch Style Start */
+ .gt-user-content .gt-switch-holder {background: #f4f4f4;border-radius: 4px;padding:18px 22px 14px;}
+ .gt-user-content .material-switch {float: left;margin: 0 15px 0 0;}
+ .gt-user-content .material-switch > input[type="checkbox"] { display: none; }
+ .gt-user-content .material-switch > label {cursor: pointer;height: 0px;position: relative;width: 40px;}
+ .gt-user-content .material-switch > label::before {background: rgb(0, 0, 0);box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);border-radius: 10px;content: '';height: 20px;margin-top: -10px;position: absolute;opacity: 0.3;transition: all 0.4s ease-in-out;width: 40px;}
+ .gt-user-content .material-switch > label::after {background: rgb(255, 255, 255);border-radius: 16px;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);content: '';height: 24px;left: -4px;margin-top: -8px;  position: absolute;top: -4px;transition: all 0.3s ease-in-out;width: 24px;}
+ .gt-user-content .material-switch > input[type="checkbox"]:checked + label::before {box-shadow: none;opacity: 1;}
+ .gt-user-content .material-switch > input[type="checkbox"]:checked + label::after {background: #fff;left: 20px;}
+/* User Switch Style End */
+ .gt-user-content .gt-seprator {border-bottom: 2px solid #efefef;width: 100%;padding: 15px 0 0 0;margin-bottom: 25px;display: block;}
+ .gt-user-content .gt-field a i { color: #aaa; position: absolute;right: 20px;height: 20px;width: 20px;border-radius: 2px;font-size: 14px;text-align: center;line-height: 17px;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out; top:12px;}
+ .gt-user-content .gt-field a:hover i {transform: rotate(360deg);border-radius: 50%;}
+ .gt-user-content .gt-field a:hover:after { left: 0; }
+ .gt-user-content .gt-field a:hover[data-original-title="Facebook"] i {color: #2a4a8f;}
+ .gt-user-content .gt-field a:hover[data-original-title="Twitter"] i {color: #55acee;}
+ .gt-user-content .gt-field a:hover[data-original-title="Linkedin"] i {color: #0070b1;}
+ .gt-btn-submit input[type="submit"],.gt-btn-submit button {margin-top:15px;text-align: center;border: 0px;text-transform: uppercase;font-weight: 600;padding: 10px 40px;border: 1px solid;background-color: transparent;font-size: 15px;}
+/*Hover Css*/
+.gt-btn-submit input[type="submit"]:hover,.gt-btn-submit button:hover {background-color: #333;color: #fff;border-color: #333;}
+/*----------------------------------------------
+    User Content Style End 
+ -----------------------------------------------*/
+
+
+
+ /*---------------------------------------------- 
+      Courses Listing Start
+ -----------------------------------------------*/
+ .gt-courses.courses-listing {margin-left: 20px;}
+ .gt-courses.courses-listing .gt-post-title h2,  .gt-courses.courses-listing .gt-post-title h3, .gt-courses.courses-listing .gt-post-title h4{margin-bottom: 0px;}
+ .gt-courses.courses-listing li:last-child{padding-bottom: 0px; border-bottom: none;}
+ .gt-courses.courses-listing li{margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #f5f6f7; padding-left:0; padding-right:0;}
+ .gt-courses.courses-listing .gt-post-options span .gt-caption{padding: 0 4px; color: #fff; margin-left: 5px;}
+ .gt-courses.courses-listing .gt-post-options span .gt-caption:before{display: none;}
+ .gt-courses P{margin-bottom: 10px;}
+ .gt-courses.courses-listing .gt-post-meta span a{text-decoration:none;}
+ .gt-courses.courses-listing .gt-media{float: left; margin-right: 30px;}
+ .gt-courses.courses-listing .gt-text{overflow: hidden;}
+ .gt-courses.courses-listing .gt-post-title{width: 70%; display: inline-block; margin-right: -4px;}
+ .gt-courses.courses-listing .gt-price-sec{display: inline-block; width: 30%; margin-right: -4px; text-align: right; padding-left: 60px; text-align: left;}
+ .gt-courses.courses-listing .gt-price-sec .gt-courses-price{display: block; font-size: 28px; margin-bottom: 3px;}
+ .gt-courses.courses-listing .gt-post-meta{padding: 0px; border: none;}
+ .gt-courses.courses-listing .gt-post-meta span,  .gt-courses.courses-listing .gt-post-meta span a{font-size: 14px;}
+ .gt-courses .gt-post-options span .gt-caption{padding: }
+ .gt-courses.courses-listing .gt-values{margin-right: 10px; padding: 0px;}
+ .gt-courses .gt-post-options span{padding: 0 10px; position: relative; font-size: 12px; color: #aaaaaa;}
+ .gt-courses .gt-post-options span:first-child{padding-left: 0px;}
+ .gt-courses .gt-post-options span:first-child:before{display: none;}
+ .gt-courses .gt-post-options span:before{content: ""; position: absolute; left: -4px; top: 8px; width: 3px; height: 3px; background-color: #ebedef;}
+ .gt-courses .gt-post-options span i{font-size: 14px; color: #aaaaaa; margin-right: 4px; display: inline-block; vertical-align: middle;}
+ /*---------------------------------------------- 
+      Courses Listing End
+ -----------------------------------------------*/
+
+
+ /*----------------------------------------------
+      User Account Setting Style Start 
+  ----------------------------------------------*/
+/* User Sidebar Style Start */
+ .gt-user-sidebar{ border-right:1px solid #f4f4f4; background:#fcfcfc; padding: 20px 20px 0px;}
+ .gt-user-sidebar:aftrt{ clear:both; content:''; display:block;}
+/* Profile Button Style Start */
+ .gt-profile-pic {margin: 0 0 40px 0;padding: 0 0 0 0;}
+ .gt-profile-pic:after{ clear:both; content:''; display:block;}
+ .profile-pic { float:left; }
+ .profile-pic figure {height: 100px;overflow: hidden;width: 100px;}
+ .profile-pic figure img {height: auto;width: 100%;}
+ .gt-browse-holder { padding-top: 20px; margin-left:20px; float:left; }
+ .gt-browse-holder em {color: #333;display: block;font-size: 12px;font-style: normal; margin-bottom: 13px;font-weight: 700; font-family: 'Montserrat', sans-serif; text-transform:uppercase;}
+ .gt-profile-pic .btn-file {border: solid 1px #f8f8f8;border-radius: 3px;box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.1);color: #aaa; cursor: pointer;font-size: 10px;overflow: hidden;padding: 12px;position: relative;text-transform: uppercase;webkit-box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.1); font-weight:700; letter-spacing:2px; background:#fff;}
+ .gt-profile-pic .btn-file input[type=file] {background: red;cursor: inherit;display: block;filter: alpha(opacity=0);font-size: 100px;height: 35px;left: 0;opacity: 0;position: absolute;text-align: right;top: 0;width: 100%;}
+/* Profile Upload Button Style End */
+/* User Account list Style Start */
+ .gt-usser-account-list{ margin: 0; padding:0;}
+ .gt-usser-account-list ul { margin:0; padding:0;}
+ .gt-usser-account-list ul li{ padding:0 0; margin:0; list-style:none; border-top:1px solid #f1f1f2;}
+ .gt-usser-account-list ul li a{ outline:none; text-decoration:none; text-transform:uppercase; font-size:13px; line-height:44px; color:#555; font-weight:700; font-family: 'Montserrat', sans-serif; display:block; position:relative; margin:0; padding:4px 0;}
+ .gt-usser-account-list ul li a:after{ content:'\e90d';font-family:'icomoon';position:absolute; right:40px;top:41%;font-size:11px;line-height:15px; visibility:hidden; opacity:0;}
+ .gt-usser-account-list ul li:hover a:after,
+ .gt-usser-account-list ul li.active a:after{ opacity:1; visibility:visible; right:0;}
+ .gt-usser-account-list ul li a i{ display:inline-block; font-size:14px; vertical-align:middle; margin:-3px 17px 0 0;}
+ .gt-logout{border-top:1px solid #f1f1f2; outline:none; text-decoration:none; text-transform:uppercase; font-size:13px; line-height:44px; color:#555; font-weight:700; font-family: 'Montserrat', sans-serif; display:block; position:relative; margin:0; padding:4px 0;}
+ .gt-logout i{ display:inline-block; font-size:14px; vertical-align:middle; margin:-3px 17px 0 0;}
+ .gt-logout:after{ content:'\e90d'; font-family:'icomoon'; position:absolute; right:40px; top:41%; font-size:11px; line-height:15px; visibility:hidden; opacity:0;}
+ .gt-logout:hover:after{ opacity:1; visibility:visible; right:0;}
+/* User Account list Style End */
+/* User Sidebar Style End */
+
+/*----------------------------------------------
+      User Account Setting Style End 
+  ----------------------------------------------*/
+
+
+  /*---------------------------------
+      Author Info List Start
+   ----------------------------------*/
+ .gt-author-info-list ul {margin:14px 0 40px; padding:0;}
+ .gt-author-info-list li {list-style:none; border-left: 1px solid #eee; padding:0 0 0 25px; margin:0 0 0 25px; display:inline-block;}
+ .gt-author-info-list li:first-child {border-left:none; margin-left:0; padding-left:0;}
+ .gt-author-info-list li i {float: left; margin: 3px 10px 0 0; width: 15px;font-size:17px;}
+ .gt-author-info-list li span {float: left; font-weight: 700; line-height: normal;}
+ .gt-author-info-list li span a {display: block; font-weight: 400; line-height: normal; text-decoration:none; outline:none; color:#555;}
+ .gt-author-info-list li span em {display:block; font-weight:400; font-style:normal; line-height:normal; padding: 5px 0 0;}
+/*---------------------------------
+      Author Info List End
+   ----------------------------------*/
+
+
+/*----------------------------------- 
+    User Statements Style Start 
+-------------------------------------*/
+ .gt-user-statements ul{margin:0 0 20px 0; font-family: 'Montserrat', sans-serif; }
+ .gt-user-statements li{list-style:none; margin:0; padding:0; }
+ .gt-user-statements .gt-statements-label{border-bottom:3px solid #f5f6f7; padding:10px 0; }
+ .gt-user-statements .gt-statements-label ul{ margin:0; padding:0;}
+ .gt-user-statements .gt-statements-label li{color:#aaa; display:inline-block; font-size:12px; text-transform:uppercase; margin:0; padding:0; font-weight:bold;}
+ .gt-user-statements .gt-statements-label li:first-child{padding:0; width:52%; }
+ .gt-user-statements .gt-statements-label li:nth-child(2){width:18%; }
+ .gt-user-statements .gt-statements-label li:nth-child(3){width:18%; }
+ .gt-user-statements .gt-statements-label li:last-child{ width:10%; }
+ .gt-user-statements .gt-statements-content{ padding:15px 0; border-bottom:1px solid #f5f6f7; }
+ .gt-user-statements .gt-statements-content ul{ margin:0;}
+ .gt-user-statements .gt-statements-content li em{ font-style:normal; color:#6ac617;}
+ .gt-user-statements .gt-statements-content li{ color:#aaa; display:inline-block; font-size:12px; text-transform:none; margin:0; padding:0; vertical-align:middle;font-weight: 600; }
+ .gt-user-statements .gt-statements-content li:nth-child(1){width:52%; padding:0 0 0 30px; }
+ .gt-user-statements .gt-statements-content li:nth-child(1) span{ font-size:14px; color:#333; display:inline-block; vertical-align:middle; position:relative;}
+ .gt-user-statements .gt-statements-content li:nth-child(1) span:after{ content:''; position:absolute; left:-29px; top:2px; width:11px; height:22px; background:#f64c1e; border-radius:3px;}
+ .gt-user-statements .gt-statements-content li:nth-child(2){width:18%; }
+ .gt-user-statements .gt-statements-content li:nth-child(3){width:18%; }
+ .gt-user-statements .gt-statements-content li:last-child{ width:10%; color:#333; }
+/*----------------------------------- 
+  User Statements Style End 
+-------------------------------------*/
+
+
+
+/*----------------------------------------- 
+  cs-signup-form style Start
+-------------------------------------------*/
+ .gt-signup-form{margin-bottom: 30px;}
+ .gt-has-error:before{position: absolute; content: '\e5cd'; font-family: icomoon; bottom: 45px; right: 15px; width: 18px; height: 19px; line-height: 18px; padding-left: 1px; border-radius: 50%; border:1px solid #e15a45; color: #e15a45; cursor: pointer;}
+ .gt-signup-form  h6{font-size: 12px; margin-bottom: 10px; letter-spacing: 0 !important; text-transform: uppercase !important;}
+ .gt-signup-form .gt-has-error i{color: #e15a45 !important;}
+ .gt-has-error input[type="text"]{background: #fff; border:1px solid #e15a45; height: 50px; padding-left: 35px;}
+ .gt-signup-form .gt-field-holder{position: relative;}
+ .gt-signup-form .gt-field-holder:after{display: block; clear: both; content: '';}
+ .gt-signup-form .gt-field-holder i{position: absolute; bottom: 49px; left: 15px; color: #c2c2c2; font-size: 13px;}
+ .gt-signup-form .gt-field-holder input[type="password"],   .gt-signup-form .gt-field-holder input[type="text"]{height: 50px; padding-left: 35px; font-size: 13px; margin-bottom: 30px;}
+ .gt-signup-form .gt-btn-submit{color: #fff; display: inline-block; position: relative; transition: all 0.3s ease 0s; z-index: 1; margin-bottom: 20px;}
+ .gt-signup-form .gt-btn-submit input[type="submit"] {background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: 0 none; border-radius: 3px; color: #fff !important; cursor: pointer; font-size: 13px; font-weight: 700; height: 43px; letter-spacing: 1px; line-height: 16px; padding: 10px 25px; position: relative; text-align: center; text-transform: uppercase; transition: all 0.3s ease 0s; width: auto; z-index: 5;}
+ .gt-signup-form .gt-btn-submit input[type="submit"] {display: inline-block; text-decoration: none;}
+ .gt-signup-form .gt-btn-submit:before {border-bottom: 1px solid #2277ae; border-top: 1px solid #2277ae; bottom: 0; content: ""; height: 100%; left: 0; opacity: 0; position: absolute; transform: scale(0.1, 1); transition: all 0.3s ease 0s; width: 100%; z-index: 1;}
+ .gt-signup-form .gt-btn-submit:hover input[type="submit"] {color: #2277ae !important;}
+ .gt-signup-form .gt-btn-submit:hover:before {opacity: 1; transform: scale(1, 1);}
+ .gt-signup-form .gt-btn-submit:after {background-color: #2277ae; border-radius: 3px; bottom: 0; content: ""; height: 100%; left: 0; position: absolute; transition: all 0.3s ease 0s; width: 100%; z-index: 1;}
+ .gt-signup-form .gt-btn-submit:hover:after {opacity: 0; transform: scale(0.1, 1);}
+ .gt-signup-form .gt-forgot-password{float: right; color: #303030; font-size: 12px; margin:0; text-decoration: none;}
+ .gt-signup-form .gt-forgot-password i{ color: #81c483 !important; display: inline-block; vertical-align: middle; font-size: 18px; padding: 0 5px; margin: -2px 0 0;}
+ .gt-signup-form .gt-checkbox{margin-bottom: 30px;}
+ .gt-signup-form .gt-checkbox label{position: relative; cursor: pointer; padding-left: 23px; color: #999; font-size: 12px;}
+ .gt-signup-form .gt-checkbox label:before{position: absolute; content: ''; background: #fff; border:1px solid #c7c7c7; left: 0; top: 7px; width: 14px; height: 14px;}
+ .gt-signup-form .gt-checkbox input[type="checkbox"]{display: none;}
+ .gt-signup-form .gt-checkbox input[type="checkbox"]:checked + label:after{position: absolute; content: '\e9a1'; font-size: 12px; line-height: 27px; font-family: icomoon; top: 0; left: 0;}
+ .gt-signup-form .gt-field-holder .gt-radio{float: left; margin-right: 20px; margin-bottom: 20px;}
+ .gt-signup-form .gt-field-holder .gt-radio input[type="radio"]{display: none;}
+ .gt-signup-form .gt-field-holder .gt-radio label{position: relative; cursor: pointer; padding-left: 20px; color: #999; font-size: 12px; text-transform: capitalize; color: #303030; font-weight: 400;}
+ .gt-signup-form .gt-field-holder .gt-radio label:before{position: absolute; content: ''; width: 16px; height: 16px; border-radius: 50%; border:1px solid #aaa; top: 5px; left: 0;}
+ .gt-signup-form .gt-field-holder .gt-radio input[type="radio"]:checked + label:before{position: absolute; content: '\e95b'; font-family: icomoon; color: #474e59; top: 5px; left: 0; text-align: center; font-size: 11px; line-height: 13px;}
+ .gt-success input[type="text"]{border:1px solid #abd8ac; background: #fff; height: 50px; padding-left: 35px;}
+ .gt-success i{color: #abd8ac !important;}
+/*----------------------------------------- 
+  cs-signup-form style Start
+-------------------------------------------*/
+
+/*----------------------------------------- 
+  Heading style Start
+-------------------------------------------*/
+.gt-section-title {margin:0 0 25px;}
+.gt-section-title h4 {margin:0; text-transform:uppercase !important;}
+/*----------------------------------------- 
+  Heading style End
+-------------------------------------------*/
+
+
+/*--------------------------------------- 
+  User Courses Style Start 
+-----------------------------------------*/
+ .gt-user-courses ul{margin:0 0 20px 0; }
+ .gt-user-courses li{list-style:none; margin:0; padding:0; }
+ .gt-user-courses .gt-courses-label{border-bottom:3px solid #f5f6f7; padding:10px 0; }
+ .gt-user-courses .gt-courses-label ul{ margin:0; padding:0;}
+ .gt-user-courses .gt-courses-label li{font-weight: 600;color:#aaa; display:inline-block; font-size:12px; text-transform:uppercase; margin:0; padding:0; }
+ .gt-user-courses .gt-courses-label li:first-child{padding:0; width:70%; }
+ .gt-user-courses .gt-courses-label li:nth-child(2){width:18%; }
+ .gt-user-courses .gt-courses-label li:last-child{ width:10%; }
+ .gt-user-courses .gt-courses-label li:last-child i{display:inline-block; padding:0 5px 0 0;}
+ .gt-user-courses .gt-courses-content{ padding:15px 0; border-bottom:1px solid #f5f6f7; }
+ .gt-user-courses .gt-courses-content ul{ margin:0;}
+ .gt-user-courses .gt-courses-content li{ color:#aaa; display:inline-block; font-size:12px; text-transform:none; margin:0; padding:0; vertical-align:middle; }
+ .gt-user-courses .gt-courses-content li:nth-child(1){width:70%; padding:0 0 0 0; }
+ .gt-user-courses .gt-courses-content li:nth-child(1) span{font-weight: bold;font-size:14px; color:#333; display:block; vertical-align:middle; position:relative;}
+ .gt-user-courses .gt-courses-content li:nth-child(1) span a{font-weight: bold;font-size:14px; color:#333; display:inline-block; text-decoration:none;}
+ .gt-user-courses .gt-courses-content li:nth-child(1) span em{ font-style: normal; color:#aaa; display:inline-block; font-size:12px;}
+ .gt-user-courses .gt-courses-content li:nth-child(2){width:18%; }
+ .gt-user-courses .gt-courses-content li:last-child{ width:10%; color:#333; }
+/*--------------------------------------- 
+  User Courses Style End 
+-----------------------------------------*/
+
+/*---------------------------------------- 
+  User Short Listed Style Start 
+------------------------------------------*/
+ .gt-user-content ul.gt-shortlisted{margin: 0px 15px 50px 15px; padding: 0px;}
+ .gt-user-content ul.gt-shortlisted li:first-child{ border-top: 2px solid #f5f6f7; padding-top:40px}
+ .gt-user-content ul.gt-shortlisted li{list-style: none; padding: 30px 0 30px 0; margin: 0px; border-bottom: 1px solid #f5f6f7; position: relative;}
+ .gt-user-content ul.gt-shortlisted li .gt-media{float: left; margin-right: 30px; width:118px;}
+ .gt-user-content ul.gt-shortlisted li .gt-media img{ width:100%;}
+ .gt-user-content ul.gt-shortlisted li .gt-text{overflow: hidden; padding:1px 0 0 0;}
+ .gt-user-content ul.gt-shortlisted li .gt-text h5{ margin-bottom:3px;}
+ .gt-user-content ul.gt-shortlisted li .gt-text h5 a{ text-decoration:none; margin:0; padding:0; outline:none; font-weight:500;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .gt-rating{display:block; margin-bottom:2px;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .rating-star{display: inline-block; width: 82px; vertical-align: middle;position: relative; height: 20px; line-height: 19px;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .rating-star:before, 
+ .gt-user-content ul.gt-shortlisted li .gt-text .rating-box:before{color: rgba(0, 0, 0, 0.4); content: "\f005 \f005\f005\f005\f005";font-family: "fontawesome"; font-size:16px; left: 0; letter-spacing: 1px; position: absolute; top: -2px;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .gt-rating em{ font-size:12px; font-style:normal; color:#aaa; display:inline-block; vertical-align:top;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .rating-box:before{color: #fea21f; content: "\f005 \f005\f005\f005\f005";}
+ .gt-user-content ul.gt-shortlisted li .gt-text .rating-box{ height: 20px; left: 0; overflow: hidden; position: absolute;top: 0;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .gt-user-name{ font-weight:700; font-family: 'Montserrat', sans-serif; font-size:12px;}
+ .gt-user-content ul.gt-shortlisted li .gt-text .gt-user-name em{ font-style:normal; padding:0; color:#aaa;}
+ .gt-user-content ul.gt-shortlisted li .gt-remove-btn{text-decoration:none; font-size: 10px; font-weight: bold; text-transform: uppercase; color: #fff; display: inline-block; line-height: 22px; padding: 0 12px; border-radius: 3px; letter-spacing: 1px; position: absolute; right: 0px; top: 50%; margin-top: -10px; background:#808080;}
+ .gt-user-content ul.gt-shortlisted li .gt-remove-btn:hover{background-color: #222;}
+/*---------------------------------------- 
+  User Short Listed Style End 
+------------------------------------------*/
+
+/*Modal Login Style Start*/
+.gt-modal button.close{display:inline-block;background:#a7a7a7;height:20px;width:20px;opacity:1;border-radius:50px;box-shadow: inset 1px 1px rgba(0,0,0,.16);color:#FFF;margin:0 -12px 0 0;}
+.gt-modal .modal-dialog{width: 394px;border-radius: 4px;background-color: #fff;box-shadow: 0 2px 6px rgba(0,0,0,.22);margin-top:155px;}
+.gt-modal .modal-content{padding:0 20px;}
+.gt-modal .modal-header{border-bottom:0;padding:9px 0 0;}
+.gt-modal .modal-body{padding:0 20px 15px;}
+.gt-modal .modal-body h4{margin-bottom:11px;}
+.gt-modal button.close > span {font-size: 18px;position: relative;top: -3px;}
+.gt-modal .gt-login-form .input-holder label{box-shadow: 0 0 3px rgba(51,144,238,.1);border: solid 1px #c9cacc;display:block;width:100%;padding:0 12px;position:relative;margin-bottom:11px;}
+.gt-modal .gt-login-form .input-holder label.has-error{border:#ff0000 solid 1px !important;}
+.gt-modal .gt-login-form .input-holder label.has-success{border:#04c448 solid 1px !important;}
+.gt-modal .gt-login-form .input-holder label strong{color:#9a9a9a;font-size:11px;text-transform:uppercase;font-weight:700;}
+.gt-modal .gt-login-form .input-holder label i{position:absolute;right:13px;top:19px;font-size:18px;color:#dcdcdc;z-index:99;cursor:pointer;}
+.gt-modal .gt-login-form .input-holder input[type="text"],.gt-modal .gt-login-form .input-holder input[type="email"],.gt-modal .gt-login-form .input-holder input[type="password"]{font-size:12px;color:#cacaca;border:none;padding:0 24px 0 0;border-radius:0;height:15px;position:relative;top:-5px;font-weight:400;background:none;}
+.gt-modal .gt-login-form .input-holder input[type="submit"]{display:block;background:none;padding:9px 6px;border:solid 1px; border-radius:4px;font-size:16px;font-weight:700;width:100%; text-align:center;margin-top:20px;margin-bottom:0;text-transform:capitalize;}
+.gt-modal .modal-footer{text-align:center;border:0;padding:0 0 15px;overflow:hidden;}
+#header .gt-modal .modal-footer > a{color:#8e8e8e !important;}
+.gt-modal .modal-footer a{display:inline-block;text-align:center;font-size:14px;font-weight:700;margin-bottom:14px;padding:0;text-transform:capitalize;}
+.gt-modal .modal-footer a:hover{border-bottom:none !important;}
+.gt-modal .modal-footer .gt-separator span {color: #a3a3a3;position: relative;font-size:12px;border-radius:50px;border:1px solid #f1f1f1;display:inline-block;width:29px;height:29px;font-weight:700;text-transform:uppercase;line-height:26px;}
+.gt-modal .modal-footer .gt-separator{overflow:hidden;margin-bottom:12px;}
+.gt-modal .modal-footer .gt-separator span::before, 
+.gt-modal .modal-footer .gt-separator span::after {background-color: #e9ebed;bottom: 12px;content: "";height: 1px;left: 100%;margin: 0 0 0 5px;position: absolute;width: 9999px;}
+.gt-modal .modal-footer .gt-separator span::after {left: auto;margin: 0 5px 0 0;right: 100%;}
+.gt-modal .modal-footer .gt-user-social em{font-style:normal;font-size:12px;color:#7f7f7f;font-weight:700;display:block;margin-bottom:15px;}
+.gt-modal .modal-footer .gt-user-social ul{margin:0;padding:0;display:block;text-align:center;width:100%;box-shadow: none;}
+.gt-modal .modal-footer .gt-user-social ul li{display:inline-block;margin:0 3px 0 0;padding:0;}
+.gt-modal .modal-footer .gt-user-social ul li:last-child{margin-right:0;}
+.gt-modal .modal-footer .gt-user-social ul li:hover{background:none !important;border-bottom:0;}
+.gt-modal .modal-footer .gt-user-social ul li a{font-size:13px;color:#FFF;margin:0;padding:2px 16px;text-transform:capitalize;}
+.gt-modal .modal-footer .gt-user-social ul li a:hover{text-decoration:none;}
+.gt-modal .modal-footer .gt-user-social ul li a i{margin-right:7px;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="facebook"] {background: #3b5998 none repeat scroll 0 0;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="twitter"] {background: #00aced none repeat scroll 0 0;}
+.gt-modal .modal-footer .gt-user-social ul li a[data-original-title="google-plus"] {background: #ea634e none repeat scroll 0 0;}
+#header .gt-modal .btn-forgot-pass{font-size:14px;color:#999999 !important;text-transform:capitalize;padding:0;margin:0;}
+.gt-modal .btn-forgot-pass i {position:relative;top:-1px;display: inline-block;font-size: 20px;vertical-align: middle;font-weight:normal;margin-right:6px;}
+.gt-modal .gt-user-signup{padding:20px 0 0 0;}
+.gt-modal .gt-user-signup i{display:inline-block;vertical-align:middle;font-size:18px;color:#c2c2c2;margin-right:5px;}
+.gt-modal .gt-user-signup strong{display:inline-block;vertical-align:middle;font-size:14px;color:#979696;}
+.gt-modal .gt-user-signup a{display:inline-block;vertical-align:middle;font-size:14px;text-transform:capitalize;margin:0;}
+.gt-modal #user-forgot-pass .gt-user-signup{padding:0;}
+/*login Form Style End*/
+/* Header Style End */
+

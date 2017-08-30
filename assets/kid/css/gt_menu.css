@@ -1,0 +1,167 @@
+/********************************************************COLOR************************************************/
+
+
+.gt_menu > li > a:hover { color: #868585; }
+.gt_menu > li > a { color: #a4a4a4; }
+/*divider and triangle color*/
+.gt_menu > .grey > a:after, .gt_menu > .grey .sub-menu li:first-child:before, .gt_menu > .grey .sub-menu li ul li:first-child:before{ color: #f9f9f9; }
+.gt_menu > .greydark > a:after, .gt_menu > .greydark .sub-menu li:first-child:before, .gt_menu > .greydark .sub-menu li ul li:first-child:before{ color: #495052; }
+.gt_menu > .green > a:after, .gt_menu > .green .sub-menu li:first-child:before, .gt_menu > .green .sub-menu li ul li:first-child:before{ color: #6fc191; }
+.gt_menu > .blue > a:after, .gt_menu > .blue .sub-menu li:first-child:before, .gt_menu > .blue .sub-menu li ul li:first-child:before{ color: #74cee4; }
+.gt_menu > .violet > a:after, .gt_menu > .violet .sub-menu li:first-child:before, .gt_menu > .violet .sub-menu li ul li:first-child:before{ color: #c389ce; }
+.gt_menu > .orange > a:after, .gt_menu > .orange .sub-menu li:first-child:before, .gt_menu > .orange .sub-menu li ul li:first-child:before{ color: #ec774b; }
+.gt_menu > .red > a:after, .gt_menu > .red .sub-menu li:first-child:before, .gt_menu > .red .sub-menu li ul li:first-child:before{ color: #e16c6c; }
+.gt_menu > .yellow > a:after, .gt_menu > .yellow .sub-menu li:first-child:before, .gt_menu > .yellow .sub-menu li ul li:first-child:before{ color: #edbf47; }
+/*dropdown*/
+.gt_menu > .yellow > .sub-menu li{ background-color: #edbf47; }
+.gt_menu > .grey > .sub-menu li{ background-color: #f9f9f9; }
+.gt_menu > .greydark > .sub-menu li{ background-color: #495052; }
+.gt_menu > .green > .sub-menu li{ background-color: #6fc191; }
+.gt_menu > .blue > .sub-menu li{ background-color: #74cee4; }
+.gt_menu > .violet > .sub-menu li{ background-color: #c389ce; }
+.gt_menu > .orange > .sub-menu li{ background-color: #ec774b; }
+.gt_menu > .red > .sub-menu li{ background-color: #e16c6c; }
+/*tinynav*/
+.gt_bg_grey .tinynav { color: #a4a4a4; background-color: #f1f1f1; box-shadow: 0px 4px 0px 0px #e5e5e5; }
+.gt_bg_greydark .tinynav { color: #fff; background-color: #404547; box-shadow: 0px 4px 0px 0px #353b3d; }
+.gt_bg_yellow .tinynav { color: #fff; background-color: #e0b84e; box-shadow: 0px 4px 0px 0px #d4ae49; }
+.gt_bg_orange .tinynav { color: #fff; background-color: #df764e; box-shadow: 0px 4px 0px 0px #d8734c; }
+.gt_bg_red .tinynav { color: #fff; background-color: #c86969; box-shadow: 0px 4px 0px 0px #bf6363; }
+.gt_bg_green .tinynav { color: #fff; background-color: #6ab78a; box-shadow: 0px 4px 0px 0px #65ae83; }
+.gt_bg_blue .tinynav { color: #fff; background-color: #6fc4d9; box-shadow: 0px 4px 0px 0px #6dc0d5; }
+.gt_bg_violet .tinynav { color: #fff; background-color: #ac7ab5; box-shadow: 0px 4px 0px 0px #a675af; }
+/*border bottom li*/
+.gt_menu > .yellow > .sub-menu li, .gt_megamenu.yellow ul li ol li a{ border-bottom:1px solid #e0b84e; }
+.gt_menu > .grey > .sub-menu li, .gt_megamenu.grey ul li ol li a{ border-bottom:1px solid #f1f1f1; }
+.gt_menu > .greydark > .sub-menu li, .gt_megamenu.greydark ul li ol li a{ border-bottom:1px solid #404547; }
+.gt_menu > .green > .sub-menu li, .gt_megamenu.green ul li ol li a{ border-bottom:1px solid #6ab78a; }
+.gt_menu > .blue > .sub-menu li, .gt_megamenu.blue ul li ol li a{ border-bottom:1px solid #6fc4d9; }
+.gt_menu > .violet > .sub-menu li, .gt_megamenu.violet ul li ol li a{ border-bottom:1px solid #ac7ab5; }
+.gt_menu > .orange > .sub-menu li, .gt_megamenu.orange ul li ol li a{ border-bottom:1px solid #df764e; }
+.gt_menu > .red > .sub-menu li, .gt_megamenu.red ul li ol li a{ border-bottom:1px solid #c86969; }
+/*text-dropdowncolor*/
+.gt_menu .yellow .sub-menu a, .gt_menu .orange .sub-menu a, .gt_menu .red .sub-menu a, .gt_menu .blue .sub-menu a, .gt_menu .green .sub-menu a, .gt_menu .violet .sub-menu a, .gt_menu .greydark .sub-menu a { color: #fff; }
+.gt_menu .white .sub-menu a, .gt_menu .grey .sub-menu a { color: #a4a4a4; }
+/*shadow*/
+.gt_menu > .grey .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #f1f1f1; }
+.gt_menu > .greydark .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #404547; }
+.gt_menu > .yellow .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #e0b84e; }
+.gt_menu > .orange .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #df764e; }
+.gt_menu > .red .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #c86969; }
+.gt_menu > .blue .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #6fc4d9; }
+.gt_menu > .green .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #6ab78a; }
+.gt_menu > .violet .sub-menu li:last-child{ box-shadow: 0px 4px 0px 0px #ac7ab5; }
+/*hover li bgcolor*/
+.gt_menu > .yellow > .sub-menu li:hover, .gt_megamenu.yellow > ul > li > a{ background-color:#e0b84e; }
+.gt_menu > .grey > .sub-menu li:hover, .gt_megamenu.grey > ul > li > a{ background-color:#f1f1f1; }
+.gt_menu > .greydark > .sub-menu li:hover, .gt_megamenu.greydark > ul > li > a{ background-color:#404547; }
+.gt_menu > .green > .sub-menu li:hover, .gt_megamenu.green > ul > li > a{ background-color:#6ab78a; }
+.gt_menu > .blue > .sub-menu li:hover, .gt_megamenu.blue > ul > li > a{ background-color:#6fc4d9; }
+.gt_menu > .violet > .sub-menu li:hover, .gt_megamenu.violet > ul > li > a{ background-color:#ac7ab5; }
+.gt_menu > .orange > .sub-menu li:hover, .gt_megamenu.orange > ul > li > a{ background-color:#df764e; }
+.gt_menu > .red > .sub-menu li:hover, .gt_megamenu.red > ul > li > a{ background-color:#c86969; }
+/*megamenu border color*/
+.gt_megamenu.grey ol li a{ border-right: 1px solid #f1f1f1; }
+.gt_megamenu.greydark ol li a{ border-right: 1px solid #404547; }
+.gt_megamenu.yellow ol li a{ border-right: 1px solid #e0b84e; }
+.gt_megamenu.orange ol li a{ border-right: 1px solid #df764e; }
+.gt_megamenu.red ol li a{ border-right: 1px solid #c86969; }
+.gt_megamenu.blue ol li a{ border-right: 1px solid #6fc4d9; }
+.gt_megamenu.green ol li a{ border-right: 1px solid #6ab78a; }
+.gt_megamenu.violet ol li a{ border-right: 1px solid #ac7ab5; }
+/*end color*/
+
+
+
+
+/********************************************************BASIC************************************************/
+
+.gt_menu * { margin: 0; padding: 0; list-style: none; }
+.gt_menu { float: right; }
+
+/*gt select*/
+.tinynav{ float: left; font-size: 15px; display:none; padding: 10px; margin-top: 20px; font-family: 'Raleway', sans-serif; }
+
+/*for menu fixed*/
+.gt_navigation{ position:fixed; top:0; left:0; z-index: 99; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; -ms-transition: all 0.8s ease; transition: all 0.8s ease; }
+.slowup{ margin-top: -34px; }
+.slowdown{ margin-top: 0px; }
+/*style full boxed*/
+.gt_menu_fullwidth{ float: left; width: 100%; }
+.gt_menu_boxed{ width:1220px; margin:auto; padding: 0px; }
+
+/*dropdown position*/
+.gt_menu .sub-menu li ul{ padding-left: 44px; padding-top: 0px; top: 0; left: 100%; }
+/*triangle position*/
+.gt_menu .sub-menu li:first-child:before{ z-index:-1; position: absolute; content: '\e8bf'; font-family: 'fontello'; margin-top: -25px; margin-left: 25px; font-size: 30px; }
+.gt_menu .sub-menu li ul li:first-child:before{ z-index:-1; position: absolute; content: '\e8c0'; font-family: 'fontello'; margin-top: 5px; margin-left: -11px; font-size: 36px; }
+/*arrow for sub-menu*/
+.sf-with-ul:after{ content: '\ea76'; font-family: 'fontello'; margin-left:20px; font-size: 13px; }
+/*radius and shadow*/
+.gt_menu .sub-menu li:first-child{ border-radius: 5px 5px 0px 0px; }
+.gt_menu .sub-menu li:last-child{ border-radius: 0px 0px 5px 5px; box-shadow: 0px 4px 0px 0px #e0b84e; }
+
+/*first link*/
+.gt_menu > li > a:after { content: '\e935'; font-family: 'fontello'; vertical-align: middle; font-size: 5px; margin: 0px 20px;	}
+.gt_menu > li:last-child > a:after { margin: 0px; display: none; }
+.gt_menu > li > a:last-child{ margin-right: 10px; }
+
+/*all link*/
+.gt_menu a { display: block; position: relative; -webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;-ms-transition: all 0.5s ease;transition: all 0.5s ease;}
+.gt_menu a { text-decoration: none; zoom: 1; font-family: 'Raleway', sans-serif; }
+
+/*link in dropdown*/
+.gt_menu li ul a { padding: 15px 25px; }
+
+/*li tag*/
+.gt_menu > li { float: left; }
+.gt_menu li { white-space: nowrap;  -webkit-transition: background .2s; transition: background .2s; position: relative; }
+
+/*ul tag*/
+.gt_menu ul { position: absolute; display: none; top: 100%; margin-left: -25px; z-index: 99; min-width: 12em; padding-top:40px; margin-top:0px; }
+
+/*for dropdown active*/
+.gt_menu li:hover > ul, .gt_menu li.sfHover > ul { display: block; }
+
+
+
+
+
+
+
+/********************************************************MEGAMENU************************************************/
+
+
+/*megamenu*/
+.gt_megamenu{ position: initial !important;}
+.gt_megamenu > ul{ /*position: fixed;*/ left: 50%; width: 1180px; margin-left: -590px; padding: 0px; margin-top: -30px; padding-top: 44px; }
+.gt_megamenu ul > li{ display: inline-block !important; float: left; margin:0px !important; border-width: 0px !important; }
+
+/*hide triangle*/
+.gt_megamenu .sub-menu li:first-child:before{ display: none; }
+
+/*first list*/
+.gt_megamenu > ul > li:first-child > a:first-child{ border-radius: 5px 0px 0px 0px; }
+.gt_megamenu > ul > li:first-child{ border-radius: 5px 0px 0px 0px 0px; }
+.gt_megamenu > ul > li:last-child > a:first-child{ border-radius: 0px 5px 0px 0px; }
+.gt_megamenu > ul > li:last-child{ border-radius: 0px 5px 0px 0px; }
+
+/*title li*/
+.gt_megamenu > ul > li > a{ padding: 15px 25px; text-transform: uppercase; }
+
+/*second list ol*/
+.gt_megamenu ol li{ border-width: 0px !important; border-radius: 0px !important; }
+.gt_megamenu ul .mm_grid:first-child ol li:last-child{ border-radius: 0px 0px 0px 5px !important; }
+.gt_megamenu ul .mm_grid:last-child ol li:last-child{ border-radius: 0px 0px 5px 0px !important; }
+.gt_megamenu ul .mm_grid:last-child ol li a{ border-right-width: 0px !important;  }
+.gt_megamenu ol li a{ font-size: 15px; }
+.gt_megamenu ol li a:before{ content: '\ea76'; font-family: 'fontello'; margin-right:20px; font-size: 13px; }
+
+/*grid*/
+.gt_megamenu > .sub-menu > .mm_grid:first-child{ border-radius: 5px 0px 0px 5px !important; }
+.gt_megamenu > .sub-menu > .mm_grid:last-child{ border-radius: 0px 5px 5px 0px !important; }
+
+/*grid megamenu*/
+.gt_megamenu .mm_grid_3{ width: 295px; }
+.gt_megamenu .mm_grid_4{ width: 393px; }
+.gt_megamenu .mm_grid_6{ width: 590px; }

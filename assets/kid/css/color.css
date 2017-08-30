@@ -1,0 +1,693 @@
+/*
+	  ============================================================
+		   Font Color
+	  ============================================================
+*/
+/*PopUp Menu CSS*/
+.gt_popup_menu ul li:hover > a,
+.gt_popup_remove i,
+/*Header Css*/
+.menu ul > li.active > a,
+.menu ul > li:hover > a,
+.gt-plus:hover i,
+.search-area input[type="submit"]:hover,
+.top_search_wrap i:hover,
+/*Header 2 Css*/
+/*Header Style 03 Wrap CSS*/
+ul.gt_hdr3_scl_icon li:hover a,
+.gt_hdr_3_ui_element ul > li:hover > i,
+.gt_hdr_3_ui_element ul > li:hover > a,
+.gt_hdr3_search input[type="submit"]:hover,
+.gt_hdr3_search button:hover,
+/*Banner Services CSS*/
+.gt_slide_1 h2,
+/*Offer Wrap CSS*/
+.gt_wht_offer_des h5 > a:hover,
+/*Popular Courses CSS*/
+.gt_pop_cour li i,
+.gt_pop_cour h5 > a:hover,
+.gt_pop_cour li a:hover,
+.gt-top-contact ul li a:hover,
+/*Popular Courses 02 CSS*/
+.gt_latest_course_des h5 > a:hover,
+.gt_latest_course_des p > a:hover,
+.gt_course_apply > a:hover,
+/*Our Gallery Wrap CSS*/
+/*Meet Our Best Teacher Wrap CSS*/
+.gt_team2_des_wrap ul li i,
+.gt_team2_des_wrap h5 > a:hover,
+/*Testimonial Css*/
+.gt_testimonial_des h5 > a:hover,
+.gt_testi2_name span,
+/*Latest News Css*/
+.gt_latst_new_des h5 a:hover,
+.gt_latst_new_des ul li:hover a,
+.gt_latst_new_des ul li i,
+.gt_view_more a,
+/*Latest Blog CSS*/
+.gt_blog_des_wrap h5 > a:hover,
+.gt_blog_des_wrap > a:hover,
+/*footer css*/
+.widget h5,
+.copyright_wrap p a:hover,
+.copyright_wrap span a:hover,
+.foo_news_content > a:hover,
+ul.gt_team1_contact_info li:hover a,
+/*About Us Css*/
+/*Comming Soon Css*/
+.gt_comming_soon_field input[type="submit"],
+.gt_comming_soon_field button,
+.gt_comming_scl_wrap p a:hover,
+/*404 page css*/
+.gt_404_text h2,
+/*Contact Us Css*/
+.gt_contact_us_field input[type="submit"],
+.gt_contact_us_field button,
+/*aside bar css*/
+.gt_aside_category ul li span,
+.gt_aside_category ul li:hover a,
+.gt_aside_post_des h6 > a:hover,
+.gt_aside_tags ul li a:hover,
+/*Pagination Css*/
+/*Course Detail Css*/
+.gt_course_price span,
+.gt_course_price a,
+/*Comment Css*/
+.gt_comment_date span i,
+/*Event Css*/
+.gt_event_des h5 > a:hover,
+/*Event Detail Css*/
+.event_detail_wrap ul.countdown li span,
+.event_list_detail ul li i,
+.event_list_detail ul li a,
+/*News Detail Css*/
+.gt_news_meta ul li i,
+.gt_news_meta ul li a:hover,
+.gt_news_tags h5 i,
+.gt_news_tags ul li:hover a,
+/*Gallery CSS*/
+.gt_gallery_filter_bg #filterable-item-filter-1 li.active a,
+.gt_gallery_filter_bg #filterable-item-filter-1 li a:hover,
+/*Sub Banner CSS*/
+.gt_sub_banner_hdg ul li:hover a,
+/*Apply POP UP Form Style*/
+.gt_pf_form h3,
+/*Shop Detail Page*/
+.gt_shop_rating_wrap ul li a,
+ul.gt_rating_start li a,
+.gt_product_des_wrap h5 > a:hover,
+/*User Dashboard Css*/
+.gt-color,
+.gt-usser-account-list ul li a:after,
+.gt-logout:after,
+.gt-usser-account-list .active>a,
+.gt-user-content ul.gt-shortlisted li .gt-text h5 a:hover,
+.gt-user-courses .gt-courses-label li:last-child i,
+.gt-user-courses .gt-courses-content li:nth-child(1) span a,
+.gt-user-content ul.gt-shortlisted li .gt-text h5 a:hover,
+.gt-user-login > a:hover,
+.gt-modal .modal-footer a:hover,
+.btn-forgot-pass:hover,
+/*Select your Price and Plan Wrap Start*/
+.gt_price_plan_wrap > p,
+ul.gt_plan_offer_list li:before,
+ul.gt_plan_offer_list li:hover a
+/*Index 03 Css*/
+{
+	color:#80cd33;	
+}
+
+
+
+/*
+	  ============================================================
+		   Background Color
+	  ============================================================
+*/
+/*PopUp Menu CSS*/
+/*Header Css*/
+.gt-top-contact ul li i,
+.gt-main-menu,
+.menu ul ul,
+.menu ul,
+.menu .navbar-btn:hover span,
+.search-area input[type="submit"],
+/*Header 2 Css*/
+/*Header Style 03 Wrap CSS*/
+.gt_hdr3_navigation ul li:before,
+.gt_hdr3_navigation .navbar-btn span,
+.gt_hdr3_navigation ul li a.current:before,
+/*Banner CSS*/
+.gt_banner .swiper-button-next,
+.gt_banner .swiper-button-prev,
+/*Banner Services CSS*/
+.bg_4,
+/*Offer Wrap CSS*/
+.gt_wht_offer_wrap:hover i.bg_4:after,
+/*Popular Courses CSS*/
+/*Popular Courses 02 CSS*/
+.gt_course_tab_list ul li a.active,
+.gt_course_tab_list ul li:hover a,
+.gt_course_search_bar form label input[type="submit"],
+.gt_course_search_bar form label:before,
+.gt_latest_course2_wrap:before,
+.gt_latest_course2_wrap:hover .course_price,
+/*Our Gallery Wrap CSS*/
+.gt_gallery_bg:before,
+/*Meet Our Best Teacher Wrap CSS*/
+.gt_teachr_des_hover ul li:hover a,
+/*Testimonial Css*/
+.gt_testimonial_slider .owl-item .item:hover .gt_testimonial_wrap,
+.gt_testimonial_slider .owl-controls .owl-nav div:hover,
+.gt_testimonial2_slider .owl-dots .owl-dot.active,
+/*Latest News Css*/
+.gt_latest_news_wrap:hover .gt_news_date,
+.gt_view_more a:hover,
+/*Latest Blog CSS*/
+.gt_blog_figcaption,
+.gt_news_slider .owl-dots .owl-dot.active,
+/*footer css*/
+.gt_newsltr_bg,
+.gt_newsltr_wrap form label:hover,
+.gt_office_wrap:before,
+.gt_foo_about ul li:hover a,
+/*About Us Css*/
+/*Comming Soon Css*/
+.gt_comming_scl_wrap ul li a,
+.gt_comming_soon_field input[type="submit"]:hover,
+.gt_comming_soon_field button:hover,
+/*404 page css*/
+.gt_404_text a,
+/*Contact Us Css*/
+.gt_contact_info_element_wrap:hover,
+/*aside bar css*/
+.gt_aside_search_wrap form input[type="submit"],
+.gt_aside_search_wrap form button,
+.gt_detail_hdg h6:before,
+/*Pagination Css*/
+.gt_pagination_outer_wrap ul li:hover a,
+.gt_pagination_outer_wrap ul li.active a,
+/*Course Detail Css*/
+.gt_course_price a:hover,
+.gt_class_spec ul li span,
+/*Comment Css*/
+.gt_comment_des > a:hover,
+.gt_commet_field input[type="submit"]:hover,
+.gt_commet_field button:hover,
+/*Event Css*/
+/*Event Detail Css*/
+.event_list_detail ul li a:hover,
+.event_list_item ul li:before,
+/*News Detail Css*/
+.team_detail_slider .owl-controls .owl-nav div:hover,
+/*Gallery CSS*/
+.edu_masonery_thumb figure:before,
+/*Sub Banner CSS*/
+/*Back to Top*/
+.back-to-top,
+/*Shop Detail Page*/
+.gt_cart_element_wrap a:hover,
+.gt_increment button:hover,
+.gt_product_button_wrap button:hover,
+/*Product List Wrap Start*/
+ul.gt_product_ui_element li:hover a,
+/*User Dashboard Css*/
+.gt-user-content .material-switch > input[type="checkbox"]:checked + label:before,
+.gt-user-content ul.gt-shortlisted li .gt-remove-btn,
+.gt-user-statements .gt-statements-content.gt-statement-highlights li:nth-child(1) span:after,
+.gt_hdr_3_ui_element ul li ul,
+.gt-modal .gt-login-form .input-holder input[type="submit"]:hover,
+.top_navi_circal a,
+/*Select your Price and Plan Wrap Start*/
+.gt_price_plan_wrap h6,
+.gt_price_plan_wrap > a:hover
+/*Index 03 Css*/
+{
+	background-color:#80cd33;	
+}
+
+
+/*
+	  ============================================================
+		   Border Color
+	  ============================================================
+*/
+/*PopUp Menu CSS*/
+/*Header Css*/
+.search-area input[type="text"],
+/*Header 2 Css*/
+.gt_hdr_style2,
+/*Header Style 03 Wrap CSS*/
+.gt_hdr3_navigation .navbar-btn,
+/*Banner Services CSS*/
+/*Offer Wrap CSS*/
+.gt_wht_offer_wrap > i.bg_4:after,
+/*Popular Courses CSS*/
+/*Popular Courses 02 CSS*/
+.gt_course_apply > a:hover,
+/*Our Gallery Wrap CSS*/
+/*Meet Our Best Teacher Wrap CSS*/
+/*Testimonial Css*/
+.gt_testimonial_img figure img,
+.gt_testimonial_wrap,
+.gt_testimonial_slider .owl-controls .owl-nav div:hover,
+/*Latest News Css*/
+.gt_view_more a,
+/*Latest Blog CSS*/
+.gt_blog_wrap:hover:before,
+/*footer css*/
+.gt_office_wrap,
+.gt_news_date,
+/*About Us Css*/
+/*Comming Soon Css*/
+.gt_comming_soon_field input[type="submit"],
+.gt_comming_soon_field button,
+/*404 page css*/
+.gt_404_text a:before,
+/*Contact Us Css*/
+.gt_contact_us_field input[type="submit"],
+.gt_contact_us_field button,
+.gt_contact_us_field input[type="text"]:focus,
+.gt_contact_us_field input[type="email"]:focus,
+.gt_contact_us_field textarea:focus,
+/*aside bar css*/
+.gt_aside_search_wrap form input[type="text"]:focus,
+.gt_aside_post_wrap ul li figure:before,
+.gt_aside_tags ul li a:hover,
+/*Pagination Css*/
+.gt_pagination_outer_wrap ul li.active a,
+.gt_pagination_outer_wrap ul li:hover a,
+/*Course Detail Css*/
+.gt_course_price a,
+.gt_cd_outer_wrap blockquote,
+/*Comment Css*/
+.gt_comment_des > a:hover,
+.gt_comment_des > a:before,
+.gt_commet_field input[type="text"]:focus,
+.gt_commet_field input[type="email"]:focus,
+.gt_commet_field textarea:focus,
+.gt_commet_field input[type="submit"]:hover,
+.gt_commet_field button:hover,
+/*Event Css*/
+/*Event Detail Css*/
+.event_list_detail ul li a,
+/*News Detail Css*/
+.team_detail_slider .owl-controls .owl-nav div:hover,
+/*Gallery CSS*/
+.gt_gallery_bg #filterable-item-filter-1 li.active a,
+.gt_gallery_bg #filterable-item-filter-1 a:hover,
+/*Sub Banner CSS*/
+.gt_brand_outer_wrap:hover,
+/*Shop Detail Page*/
+.gt_shop_tab_link,
+.gt_shop_tab_link ul li.active a,
+.gt_shop_tab_link ul li:hover a,
+.gt_increment button:hover,
+/*Product List Wrap Start*/
+ul.gt_product_ui_element li a,
+/*User Dashboard Css*/
+.gt-user-content .gt-field-holder .gt-field input[type=text]:focus,
+.gt-user-content .gt-field-holder textarea:focus,
+.gt-modal .gt-login-form .input-holder input[type="submit"],
+.gt-modal .gt-login-form .input-holder label:hover
+/*Select your Price and Plan Wrap Start*/
+/*Index 03 Css*/
+{
+	border-color:#80cd33;	
+}
+
+
+
+/*
+	  ============================================================
+		   Transaction Effect
+	  ============================================================
+*/
+.button_style_1,
+/*PopUp Menu CSS*/
+.gt_popup_wrap,
+.gt_popup_menu ul li a,
+.gt_popup_remove i,
+/*Header Css*/
+.menu ul li,
+.menu ul li:before,
+.menu ul li a,
+.menu .navbar-btn,
+.menu .navbar-btn span,
+.gt-plus,
+.gt-plus i,
+.top_search_wrap i,
+.search-area input[type="submit"],
+/*Header 2 Css*/
+/*Header Style 03 Wrap CSS*/
+ul.gt_hdr3_scl_icon li,
+ul.gt_hdr3_scl_icon li a,
+.gt_hdr_3_ui_element ul li i,
+.gt_hdr_3_ui_element ul li a,
+.gt_hdr3_search input[type="search"],
+.gt_hdr3_search input[type="submit"],
+.gt_hdr3_search button,
+.gt_hdr3_navigation ul li:before,
+.gt_hdr3_navigation > ul > li > a,
+.gt_hdr3_navigation ul ul li a,
+/*Banner Css*/
+.banner_text > a,
+.banner_text > a:before,
+.gt_banner_text > a,
+.gt_banner .swiper-button-next,
+.gt_banner .swiper-button-prev,
+/*Banner Services CSS*/
+.gt_main_services,
+.gt_main_services i,
+.gt_main_services h5,
+.gt_main_services p,
+.gt_main_services a,
+.gt_wht_offer_des h5 > a,
+/*Offer Wrap CSS*/
+.gt_wht_offer_wrap i:after,
+.gt_offer_wrap,
+.gt_offer_wrap h5,
+.gt_offer_wrap p,
+.bg_offer_1:before,
+.bg_offer_2:before,
+.bg_offer_3:before,
+.bg_offer_4:before,
+/*Popular Courses CSS*/
+.gt_pop_cour li a,
+.gt_pop_cour h5 > a,
+.gt-top-contact ul li a,
+.gt_pop_course_hvr > span,
+.gt_hover_effect,
+/*Popular Courses 02 CSS*/
+.gt_course_tab_list ul li a,
+.gt_course_search_bar form label input[type="submit"],
+.gt_course_search_bar form label:before,
+.gt_latest_course2_wrap,
+.gt_latest_course2_wrap:before,
+.course_price,
+.course_price:before,
+.gt_latest_course_des,
+.gt_latest_course_des h5 > a,
+.gt_latest_course_des p > a,
+.gt_course_apply > a,
+/*Our Gallery Wrap CSS*/
+.gt_gallery_wrap:before,
+.gt_gallery_slider .owl-controls .owl-nav div,
+/*Meet Our Best Teacher Wrap CSS*/
+.gt_teachr_des_hover,
+.gt_teachr_des_hover ul li,
+.gt_teachr_des_hover ul li a,
+.gt_team2_wrap,
+.gt_team2_wrap figure,
+.gt_team2_wrap figure:before,
+.gt_team_scl_icon,
+a.team_share,
+.gt_team_scl_icon ul,
+.gt_team_scl_icon ul li a,
+.gt_team2_des_wrap > span,
+.gt_team2_des_wrap h5 > a,
+/*Testimonial Css*/
+.gt_testimonial_wrap,
+.gt_testimonial_wrap:before,
+.gt_testimonial_wrap p,
+.gt_testimonial_wrap p:before,
+.gt_testimonial_wrap p:after,
+.gt_testimonial_img figure img,
+.gt_testimonial_des h5 > a,
+.gt_testimonial_slider .owl-controls .owl-nav div,
+/*Latest News Css*/
+.gt_latst_new_des h5 a,
+.gt_latst_new_des ul li a,
+.gt_news_des_wrap,
+.gt_news_date,
+.gt_view_more a,
+/*Latest Blog CSS*/
+.gt_blog_wrap:before,
+.gt_blog_figcaption,
+ul.gt_blog_meta:before,
+.gt_blog_des_wrap h5 > a,
+.gt_blog_des_wrap > a,
+/*footer css*/
+.gt_newsltr_wrap form label,
+.copyright_wrap p a,
+.copyright_wrap span a,
+.gt_foo_about ul li a,
+.foo_news_content > a,
+.gt_foo_news ul > li figure img,
+.gt_foo_recent_projects ul li a img,
+ul.gt_team1_contact_info li a,
+/*About Us Css*/
+/*Comming Soon Css*/
+.gt_comming_scl_wrap ul li a,
+.gt_comming_soon_field input[type="submit"],
+.gt_comming_soon_field button,
+/*404 page css*/
+.gt_404_text a,
+.gt_404_text a:before,
+/*Contact Us Css*/
+.gt_contact_info_element_wrap,
+.gt_contact_info_element_wrap i,
+.gt_contact_info_element_wrap h5,
+.gt_contact_info_element_wrap p,
+.gt_contact_info_element_wrap a,
+.gt_contact_us_field input[type="submit"],
+.gt_contact_us_field button,
+.gt_contact_us_field input[type="text"],
+.gt_contact_us_field input[type="email"],
+.gt_contact_us_field textarea,
+/*aside bar css*/
+.gt_aside_search_wrap form input[type="text"],
+.gt_aside_search_wrap form input[type="submit"],
+.gt_aside_search_wrap form button,
+.gt_aside_category ul li,
+.gt_aside_category ul li a,
+.gt_aside_category ul li span,
+.gt_aside_post_wrap ul li figure:before,
+.gt_aside_post_des h6 > a,
+.gt_aside_tags ul li a,
+/*Pagination Css*/
+.gt_pagination_outer_wrap ul li,
+.gt_pagination_outer_wrap ul li a,
+/*Course Detail Css*/
+.gt_course_price a,
+/*Comment Css*/
+.gt_comment_des > a,
+.gt_commet_field input[type="text"],
+.gt_commet_field input[type="email"],
+.gt_commet_field textarea,
+.gt_commet_field input[type="submit"]:hover,
+.gt_commet_field button:hover,
+/*Event Css*/
+.gt_event_des,
+.gt_event_des:before,
+.gt_event_des h5 > a,
+.gt_event_des p,
+.gt_comment_date span,
+.gt_comment_date span i,
+/*Event Detail Css*/
+.event_list_detail ul li a,
+/*News Detail Css*/
+.gt_news_meta ul li a,
+.gt_news_tags ul li a,
+.team_detail_slider .owl-controls .owl-nav div,
+/*Gallery CSS*/
+.gt_gallery_bg #filterable-item-filter-1 li,
+.gt_gallery_bg #filterable-item-filter-1 li a,
+.edu_masonery_thumb figure:before,
+.edu_masonery_thumb figure > a,
+/*Sub Banner CSS*/
+.gt_sub_banner_hdg ul li a,
+/*Back to Top*/
+.back-to-top,
+.back-to-top a,
+.gt_brand_outer_wrap,
+/*Shop Detail Page*/
+.gt_shop_tab_link ul li,
+.gt_shop_tab_link ul li a,
+.gt_increment button,
+.gt_product_button_wrap button,
+.gt_cart_element_wrap a,
+/*Product List Wrap Start*/
+.gt_overlay_wrap,
+.gt_product_outer_wrap,
+.gt_product_outer_wrap figure,
+.gt_product_outer_wrap figure img,
+.gt_product_img_des,
+.gt_product_img_des p,
+.gt_product_des_wrap,
+.gt_product_des_wrap > span,
+.gt_product_des_wrap h5 > a,
+ul.gt_product_ui_element li a,
+ul.gt_product_ui_element li a i,
+/*User Dashboard Css*/
+.gt-color,
+.gt-usser-account-list ul li a:after,
+.gt-logout:after,
+ .gt-btn-submit input[type="submit"],.gt-btn-submit button,
+ .gt-user-content .gt-field-holder .gt-field input[type=text],
+ .gt-user-content .gt-field-holder textarea,
+ .gt-user-content ul.gt-shortlisted li .gt-text h5 a,
+ .gt_hdr_3_ui_element ul li ul li:after,
+ .gt_hdr_3_ui_element ul li ul li,
+ .gt_hdr_3_ui_element ul li ul,
+ .gt-user-login > a,
+ .gt_hdr_3_ui_element ul li ul li a i,
+ .gt-modal .gt-login-form .input-holder input[type="submit"],
+ .btn-forgot-pass,
+ .gt-modal .modal-footer a,
+ /*Select your Price and Plan Wrap Start*/
+ .gt_price_plan_wrap,
+ .gt_price_plan_wrap h6,
+ ul.gt_plan_offer_list,
+ ul.gt_plan_offer_list li,
+ ul.gt_plan_offer_list li:before,
+ ul.gt_plan_offer_list li a,
+ .gt_price_plan_wrap > a,
+ /*Index 03 Css*/
+ .gt_kid_cart_total>a,
+ .gt_right_sidebar_btn_open,
+ .gt_archive1_des>a,
+ .gt_kid_foo_about>ul>li>a,
+ .gt_kid_foo_tag>ul>li>a,
+ .gt_kid_widgt_wrap a,
+ .gt_copyright_scl_icon>ul>li>a
+{
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;	
+}
+
+
+
+/*
+	  ============================================================
+		   Transform & Rotate Effect
+	  ============================================================
+*/
+/*Header Css*/
+/*Header Style 03 Wrap CSS*/
+/*Banner Services CSS*/
+/*Popular Courses CSS*/
+/*Popular Courses 02 CSS*/
+/*Our Gallery Wrap CSS*/
+/*Meet Our Best Teacher Wrap CSS*/
+/*Testimonial Css*/
+/*Latest News Css*/
+/*Latest Blog CSS*/
+/*footer css*/
+.gt_foo_news ul > li:hover figure img,
+.gt_foo_recent_projects ul li:hover a img
+/*About Us Css*/
+/*Comming Soon Css*/
+/*404 page css*/
+/*Contact Us Css*/
+/*aside bar css*/
+/*Pagination Css*/
+/*Course Detail Css*/
+/*Comment Css*/
+/*Event Detail Css*/
+/*News Detail Css*/
+/*Gallery CSS*/
+/*Sub Banner CSS*/
+/*Shop Detail Page*/
+/*User Dashboard Css*/
+{
+	transform:scale(1.3) rotateZ(-6deg);
+	-moz-transform:scale(1.3) rotateZ(-6deg);
+	-webkit-transform:scale(1.3) rotateZ(-6deg);	
+}
+
+/*
+	  ============================================================
+		   Transform Effect
+	  ============================================================
+*/
+/*PopUp Menu CSS*/
+/*Popular Courses CSS*/
+.gt_pop_cour:hover .gt_hover_effect,
+.gt_pop_cour:hover .gt_pop_course_hvr > span,
+/*Popular Courses 02 CSS*/
+/*Our Gallery Wrap CSS*/
+/*Meet Our Best Teacher Wrap CSS*/
+.gt_team2_wrap:hover figure:before,
+.gt_team2_wrap:hover .gt_team_scl_icon ul,
+/*Blog Css*/
+.gt_blog_wrap:hover .gt_blog_figcaption
+/*footer css*/
+/*About Us Css*/
+/*Comming Soon Css*/
+/*404 page css*/
+/*Contact Us Css*/
+/*aside bar css*/
+/*Pagination Css*/
+/*Course Detail Css*/
+/*Comment Css*/
+/*Event Detail Css*/
+/*News Detail Css*/
+/*Gallery CSS*/
+/*Sub Banner CSS*/
+/*Shop Detail Page*/
+/*User Dashboard Css*/
+{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);	
+}
+
+/*
+	  ============================================================
+		  Single Border Color
+	  ============================================================
+*/
+.gt-main-menu:before{
+	border-color: transparent transparent #75bb2f transparent;
+}
+.gt-main-menu:after{
+	border-color: transparent transparent transparent #75bb2f;
+}
+.gt_testimonial_wrap:before{
+	border-color: #fff transparent transparent transparent;	
+}
+.gt_testimonial_slider .owl-item .item:hover .gt_testimonial_wrap:before{
+	border-color: #80cd33 transparent transparent transparent;
+}
+/*
+	  ============================================================
+		  Outline Color
+	  ============================================================
+*/
+.gt_gallery_slider .owl-item.center .gt_gallery_wrap img{
+	outline: 15px solid #80cd33
+}
+/*
+	  ============================================================
+		  Responsive Menu Color
+	  ============================================================
+*/
+@media (max-width: 992px) {
+	.gt_hdr3_navigation ul ul{
+		background-color: #80cd33;
+	}
+	.gt_hdr3_navigation ul ul li:hover a{
+		color: #80cd33;
+	}
+}
+/*
+	  ============================================================
+		  Content Selection
+	  ============================================================
+*/
+::selection {
+    background: #80cd33;
+    color:#ffffff;
+}
+::-webkit-selection {
+    background: #80cd33;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #80cd33;
+    color: #ffffff;
+}

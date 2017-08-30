@@ -95,4 +95,68 @@ class Barang extends BaseController
 
     	echo json_encode($result);
 	}
+
+	public function getBarang(){
+		if($this->input->is_ajax_request()){
+			$dtL = $this->input->post('term');
+			$dt = array();
+			$this->load->model('barang_model');
+			$dtBrg = $this->barang_model->getLike($dtL);
+			foreach($dtBrg as $row){
+				$dt[] = array(
+					'id' => $row->kodebrg,
+					'value' => $row->namabrg,
+					'label' => $row->namabrg . " : " . $row->kodebrg
+				);
+			}
+			echo json_encode($dt);
+		}else{
+			show_404();
+		}
+	}
+	
+	public function getRuang(){
+		if($this->input->is_ajax_request()){
+			$dtL = $this->input->post('term');
+			$dt = array();
+			$this->load->model('rack_model');
+			$dtBrg = $this->rack_model->getLike($dtL);
+			foreach($dtBrg as $row){
+				$dt[] = array(
+					'id' => $row->kodebarang,
+					'value' => $row->namabarang,
+					'label' => $row->namabarang
+				);
+			}
+			echo json_encode($dt);
+		}else{
+			show_404();
+		}
+	}
+	
+	public function getParam(){
+		if($this->input->is_ajax_request()){
+			$dtL = $this->input->post('term');
+			$kodebarang = $this->input->post('barang');
+			$dt = array();
+			$this->load->model('mbarang');
+			$dtBrg = $this->mbarang->getLikeParam($dtL, $kodebarang);
+			foreach($dtBrg as $row){
+				$dt[] = array(
+					'id' => $row->parameter,
+					'value' => $row->parameter,
+					'label' => $kodebarang . " : " . $row->parameter
+				);
+			}
+			echo json_encode($dt);
+		}else{
+			show_404();
+		}
+	}
+	
+	private function setPage(){
+		$this->data['pgTitle'] = 'Data Barang';
+		$this->data['pgTitleDesc'] = 'Data Barang';
+	}
+	
 }

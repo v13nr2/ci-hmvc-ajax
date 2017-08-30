@@ -77,6 +77,49 @@ class Barang_model extends CI_Model {
 		
 	}
 	
+	public function getLike($dt){
+		$this->db->like('namabrg', $dt);
+		$this->db->from('nng_stock');
+		$res = $this->db->get();
+		return $res->result();	
+	}
 	
+	public function getLikeParam($dt, $kodebarang){
+		$this->db->like('parameter', $dt);
+		$this->db->like('kd_barang', $kodebarang);
+		$this->db->from('brg_param');
+		$res = $this->db->get();
+		return $res->result();	
+	}
+	
+	public function getByKode($kode){
+		$this->db->select('*');
+		$this->db->from('nng_barang');
+		$this->db->where('kd_barang',$kode);
+		$res = $this->db->get();
+		return $res->result();
+	}
+	
+	public function save($data){
+		$this->db->insert('nng_barang',$data);
+        return $this->db->affected_rows();
+	}
+	
+	public function update($data,$kode){
+		$this->db->where('kd_barang', $kode);
+		$this->db->update('nng_barang', $data);
+		return $this->db->affected_rows();
+	}
+	
+	public function delByKode($kode){
+		$this->db->where('kd_barang', $kode);
+		$this->db->delete('nng_barang');
+		return $this->db->affected_rows();
+	}
+	
+	public function delAll(){
+		$this->db->empty_table('nng_barang');
+		return $this->db->affected_rows();
+	}
 	
 }
