@@ -1,2 +1,5 @@
-# ci-hmvc-ajax
-Sebagai programmer yang taat pada perguruan, dengan tidak mengurangi rasa ikhlas saya akan memberikan cuma cuma Skeleton aplikasi Codeigniter 3, HMVC, Ajax jQuery, AdminLTE, CRUD User, Chat, CRUD Todo, Chart js from DB, Secure from debugging client, dan Retrieving Multi Level Menu... mhn diterima sebagai amal ibadah saya.
+Grocery CRUD
+=============
+Grocery CRUD is a PHP and Codeigniter Framework library that creates a full functional CRUD system without the need to customise JavaScript or CSS.
+
+For more information, visit http://www.grocerycrud.com

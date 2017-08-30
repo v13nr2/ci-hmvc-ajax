@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kid Template for Children and child.">
-    <meta name="keywords" content="child,children,school,childcare,colorful">
-    <meta name="author" content="2goodtheme">
-
-    <title>KidCenter - Education Template</title>
-    <!-- Swiper Slider CSS -->
-    <link href="<?php echo base_url();?>/assets/kid/css/swiper.css" rel="stylesheet">
-	<!-- Custom Main StyleSheet CSS -->
-    <link href="<?php echo base_url();?>/assets/kid/style.css" rel="stylesheet">
-    <!-- Color CSS -->
-    <link href="<?php echo base_url();?>/assets/kid/css/color.css" rel="stylesheet">
-    <!-- Responsive CSS -->
-    <link href="<?php echo base_url();?>/assets/kid/css/responsive.css" rel="stylesheet">
-  </head>
-
-  <body>
-
+<?php 
+	foreach($config as $row){ 
+		$judulweb = $row["judul_web"];
+		$telpon = $row["nomor_telepon"];
+		$email = $row["email"];
+		$email = $row["email"];
+		$animasi_teks = $row["animasi_teks"];
+	}
+?>
 <!--gt Wrapper Start-->  
 <div class="gt_wrapper">
 
@@ -71,13 +57,13 @@
                 </div>
                 <div class="gt_hdr_3_ui_element">
                     <ul>
-                        <li><i class="fa fa-phone"></i>+124 456 7858</li>
-                        <li><i class="fa fa-envelope-o"></i><a href="#">info@kidscenter.com</a></li>
+                        <li><i class="fa fa-phone"></i><?php echo $telpon;?></li>
+                        <li><i class="fa fa-envelope-o"></i><a href="#"><?php echo $email;?></a></li>
                     </ul>
                 </div>
                 <div class="gt_hdr3_search">
                     <form>
-                        <input type="search" placeholder="Enter your search...">
+                        <input type="search" placeholder="">
                         <button><i class="fa fa-search"></i></button>
                     </form>
                 </div>
@@ -105,7 +91,7 @@
 								<?php foreach($menu_2 as $row2){ 
 									if($row2["parent_id"]==$row["id"]){
 								?>
-                                <li><a href="course-grid-style-01-with-sidebar.html"><?php echo $row2["nama_menu"];?></a></li>
+                                <li><a href="<?php echo $row2["controller"];?>"><?php echo $row2["nama_menu"];?></a></li>
 								<?php } }?>
                             </ul>
                         </li>
@@ -121,32 +107,14 @@
     <div class="gt_banner default_width wow fadeInUp">
         <div class="swiper-container" id="swiper-container">
              <ul class="swiper-wrapper">
+			 <?php foreach($banner as $row){ ?>
                 <li class="swiper-slide">
-                    <img src="<?php echo base_url();?>/assets/kid/extra-images/banner-01.jpg" alt="">
+                    <img src="<?php echo base_url();?>/assets/uploads/files/<?php echo $row["gambar"];?>" alt="">
                     <div class="gt_banner_text gt_slide_1">
-                        <h3>Welcome to</h3>
-                        <h2>kids Center for kids</h2>
+                        <?php echo $animasi_teks;?>
                     </div>
                 </li>
-                <li class="swiper-slide">
-                    <img src="<?php echo base_url();?>/assets/kid/extra-images/banner-02.jpg" alt="">
-                    <div class="gt_banner_text gt_slide_2">
-                        <h3>Learning &#38; fun</h3>
-                        <h2>Perfevt Education</h2>
-                        <h3>Template for your kids</h3>
-                        <a class="btn-left" href="#">see More</a>
-                        <a class="btn-right" href="#">Buy Now!</a>
-                    </div>
-                </li>
-                <li class="swiper-slide">
-                    <img src="<?php echo base_url();?>/assets/kid/extra-images/banner-03.jpg" alt="">
-                    <div class="gt_banner_text gt_slide_3">
-                        <h3>We will take care</h3>
-                        <h2>for your kids</h2>
-                        <a class="btn-left" href="#">see More</a>
-                        <a class="btn-right" href="#">Buy Now!</a>
-                    </div>
-                </li>
+			 <?php } ?>
              </ul>
          </div>
         <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
@@ -1042,31 +1010,3 @@
 
 </div>
 <!--gt Wrapper End-->
-
-
-
-    <!--Jquery Library-->
-    <script src="<?php echo base_url();?>/assets/kid/js/jquery.js"></script>
-    <!--Bootstrap core JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/bootstrap.min.js"></script>
-    <!--Swiper JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/swiper.jquery.min.js"></script>
-    <!--Accordian JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/jquery.accordion.js"></script>
-    <!--Count Down JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/jquery.downCount.js"></script>
-    <!--Pretty Photo JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/jquery.prettyPhoto.js"></script>
-    <!--Owl Carousel JavaScript-->
-	<script src="<?php echo base_url();?>/assets/kid/js/owl.carousel.js"></script>
-    <!--Number Count (Waypoint) JavaScript-->
-	<script src="<?php echo base_url();?>/assets/kid/js/waypoints-min.js"></script>
-    <!--Filter able JavaScript-->
-	<script src="<?php echo base_url();?>/assets/kid/js/jquery-filterable.js"></script>
-    <!--WOW JavaScript-->
-    <script src="<?php echo base_url();?>/assets/kid/js/wow.min.js"></script>
-    <!--Custom JavaScript-->
-	<script src="<?php echo base_url();?>/assets/kid/js/custom.js"></script>
-
-  </body>
-</html>

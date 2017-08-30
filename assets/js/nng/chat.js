@@ -1,5 +1,6 @@
 
 function reloadChat(){
+	$('#chatboxnng').html('');
 	$.ajax({ 
 				 type: "POST",   
 				 url: "chat/getChat",   
@@ -28,6 +29,9 @@ function addchat(){
 				 async: true,
 				 success : function(response)
 				 {
+					 for(i=0;i<=100000;i++){
+					 }
+					 reloadChat();
 					//console.log(response);
 				 },
 				 failure: function(){

@@ -12,7 +12,7 @@ class Menu_model extends CI_Model {
 
 	public function get_Module($profile_id)
 	{
-			$query = $this->db->query("SELECT * FROM nng_menu WHERE parent_id = 0");
+			$query = $this->db->query("SELECT * FROM nng_menu WHERE parent_id = 0 AND status = 1");
 			return $query->result_array();
 		
 	}

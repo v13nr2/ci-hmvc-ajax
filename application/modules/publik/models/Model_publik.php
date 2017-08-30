@@ -28,5 +28,22 @@ class Model_publik extends CI_Model {
 		return $query->result_array();
     }
 	
+	
+    public function banner() {
+        $query = $this->db->get_where('nng_banner',array('id !=' => 0));
+		return $query->result_array();
+    }
+	
+    public function bannersamping() {
+        $query = $this->db->get_where('nng_banner_samping',array('id !=' => 0));
+		return $query->result_array();
+    }
+	
+	
+    public function config() {
+        $query = $this->db->get_where('nng_config',array('id !=' => 0));
+		return $query->result_array();
+    }
+	
 }
 ?>
