@@ -75,8 +75,25 @@ class Data extends BaseController {
 			$crud->set_subject('Konten');
 
 			$crud->required_fields('gambar');
-
+			
+			$crud->set_relation('kategori_id','nng_kategori_berita','kategori');
 			$crud->set_field_upload('gambar','assets/uploads/files');
+
+			$output = $crud->render();
+
+			$this->_example_output($output);
+	}
+	
+	public function kategori_berita()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_theme('flexigrid');
+			$crud->set_table('nng_kategori_berita');
+			$crud->set_subject('Kategori');
+
+			$crud->required_fields('kategori');
+
 
 			$output = $crud->render();
 

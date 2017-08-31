@@ -14,6 +14,7 @@ foreach($css_files as $file): ?>
 <body>
 	<div>
 		<a href='<?php echo base_url('data/news')?>'>Konten</a> |
+		<a href='<?php echo base_url('data/kategori_berita')?>'>Kategori Berita</a> |
 		<a href='<?php echo base_url('data/banner')?>'>Banner</a> |
 		<a href='<?php echo base_url('data/banner_samping')?>'>Banner Samping</a> |
 		<a href='<?php echo base_url('data/chat')?>'>Chat</a>  |

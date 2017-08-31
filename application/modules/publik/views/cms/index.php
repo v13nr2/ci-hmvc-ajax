@@ -72,7 +72,7 @@
         <div class="gt_top3_menu default_width">
             <div class="container">
                 <div class="gt-logo">
-                    <a href="#"><img src="images/logo.png" alt=""></a>
+                    <a href="#"><img src="<?php echo base_url();?>/assets/kid/images/logo.png" alt=""></a>
                 </div>
                 <nav class="gt_hdr3_navigation">
                     <!-- Responsive Buttun -->
@@ -131,7 +131,7 @@
                     <div class="col-md-3 wow fadeInUp">
                         <div class="gt_main_services bg_1">
                             <i class="icon-write-board"></i>
-                            <h5>Courses</h5>
+                            <h5>PGIT & TKIT</h5>
                             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
                             <a  class="bg_1" href="#"> <i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -140,7 +140,7 @@
                     <div class="col-md-3 wow fadeInUp">
                         <div class="gt_main_services bg_2">
                             <i class="icon-teacher-showing-on-whiteboard"></i>
-                            <h5>Professional Teachers</h5>
+                            <h5>SDIT</h5>
                             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
                              <a class="bg_2" href="#"> <i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -149,7 +149,7 @@
                     <div class="col-md-3 wow fadeInUp">
                         <div class="gt_main_services bg_3">
                             <i class="icon-compass"></i>
-                            <h5>Fully Equiped</h5>
+                            <h5>SMPIT</h5>
                             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
                              <a class="bg_3" href="#"> <i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -158,7 +158,7 @@
                     <div class="col-md-3 wow fadeInUp">
                         <div class="gt_main_services bg_4">
                             <i class="icon-number-blocks"></i>
-                            <h5>Special Education</h5>
+                            <h5>SMAIT</h5>
                             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
                               <a class="bg_4" href="#"> <i class="fa fa-arrow-right"></i></a>
                             

@@ -14,6 +14,8 @@ class Home extends BaseController
 		$data['menu2'] = $this->Menu_model->get_Module2($profile_id);
 		$data['menu3'] = $this->Menu_model->get_Module3($profile_id);
 		$data['totaluser'] = $this->Menu_model->get_user_total();
+		$data['berita'] = $this->Menu_model->get_berita_total();
+		$data['todo'] = $this->Menu_model->get_todo_total();
 		
 		$this->load->model('Grafik_model');
 		$data["dt_koleksi"] = $this->Grafik_model->dt_koleksi();

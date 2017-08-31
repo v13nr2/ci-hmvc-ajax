@@ -48,4 +48,21 @@ class Menu_model extends CI_Model {
 		return $query->result_array();
 	}
 	
+	public function get_berita_total(){
+		
+		$this->db->select('id, count(*) as total');
+		$this->db->from('nng_news');            
+		$query = $this->db->get();
+		return $query->result_array();
+	}
+	
+	
+	public function get_todo_total(){
+		
+		$this->db->select('id, count(*) as total');
+		$this->db->from('nng_todo');            
+		$query = $this->db->get();
+		return $query->result_array();
+	}
+	
 }

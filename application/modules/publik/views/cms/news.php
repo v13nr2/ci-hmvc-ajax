@@ -4,6 +4,8 @@
 		$telpon = $row["nomor_telepon"];
 		$email = $row["email"];
 		$informasi = $row["informasi"];
+		$footer_kanan = $row["footer_kanan"];
+		$footer_kiri = $row["footer_kiri"];
 	}
 	
 ?><!DOCTYPE html>
@@ -59,7 +61,7 @@
         <div class="gt_top3_menu default_width">
             <div class="container">
                 <div class="gt-logo">
-                    <a href="<?php echo base_url();?>/assets/kid/#"><img src="images/logo.png" alt=""></a>
+                    <a href="<?php echo base_url();?>/assets/kid/#"><img src="<?php echo base_url();?>/assets/kid/images/logo.png" alt=""></a>
                 </div>
                 <nav class="gt_hdr3_navigation">
                     <!-- Responsive Buttun -->
@@ -112,49 +114,23 @@
                 <div class="row">
                     <!--News Grid List Wrap Start-->
                     <div class="col-md-9">
+						<?php foreach($news as $row){ ?>
                         <div class="gt_latest_news_wrap default_width mb wow fadeInUp">
-                            <img src="extra-images/news-listing-01.jpg" alt="">
+                            <img src="<?php echo base_url();?>assets/uploads/files/<?php echo $row["gambar"];?>" alt="">
                             <div class="gt_news_des_wrap default_width">
-                                <div class="gt_news_date"><span>20</span>Aug 2016</div>
+                                <div class="gt_news_date"><span><?php echo substr($row["tanggal"],-2);?></span><?php echo substr($row["tanggal"],5,2);?> <?php echo substr($row["tanggal"],0,4);?></div>
                                 <div class="gt_latst_new_des">
-                                    <h5><a href="<?php echo base_url();?>/assets/kid/#">Lorem ipsum dolor sit amet vero eos </a></h5>
+                                    <h5><a href="#"><?php echo $row["judul"];?></a></h5>
                                     <ul>
-                                        <li>Posted by: <a href="<?php echo base_url();?>/assets/kid/#"> Melissa Black</a></li>
-                                        <li><i class="fa fa-comments-o"></i><a href="<?php echo base_url();?>/assets/kid/#">20 Comments</a></li>
+                                        
+                                        <li><i class="fa fa-comments-o"></i><a href="<?php echo base_url();?>/assets/kid/#"></a></li>
                                     </ul>
-                                    <p>d ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem...</p>
+                                    <p><?php echo $row["isi"];?></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="gt_latest_news_wrap default_width mb wow fadeInUp">
-                            <img src="extra-images/news-listing-02.jpg" alt="">
-                            <div class="gt_news_des_wrap default_width">
-                                <div class="gt_news_date"><span>20</span>Aug 2016</div>
-                                <div class="gt_latst_new_des">
-                                    <h5><a href="<?php echo base_url();?>/assets/kid/#">Lorem ipsum dolor sit amet vero eos </a></h5>
-                                    <ul>
-                                        <li>Posted by: <a href="<?php echo base_url();?>/assets/kid/#"> Melissa Black</a></li>
-                                        <li><i class="fa fa-comments-o"></i><a href="<?php echo base_url();?>/assets/kid/#">20 Comments</a></li>
-                                    </ul>
-                                    <p>d ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gt_latest_news_wrap default_width mb wow fadeInUp">
-                            <img src="extra-images/news-listing-03.jpg" alt="">
-                            <div class="gt_news_des_wrap default_width">
-                                <div class="gt_news_date"><span>20</span>Aug 2016</div>
-                                <div class="gt_latst_new_des">
-                                    <h5><a href="<?php echo base_url();?>/assets/kid/#">Lorem ipsum dolor sit amet vero eos </a></h5>
-                                    <ul>
-                                        <li>Posted by: <a href="<?php echo base_url();?>/assets/kid/#"> Melissa Black</a></li>
-                                        <li><i class="fa fa-comments-o"></i><a href="<?php echo base_url();?>/assets/kid/#">20 Comments</a></li>
-                                    </ul>
-                                    <p>d ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Pagination Wrap Start-->
+						<?php }?>
+                        <!--Pagination Wrap Start
                         <div class="gt_pagination_outer_wrap wow fadeInUp">
                             <ul>
                                 <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-angle-double-left"></i></a></li>
@@ -164,7 +140,7 @@
                                 <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-angle-double-right"></i></a></li>
                             </ul>
                         </div>
-                        <!--Pagination Wrap End-->
+                        Pagination Wrap End-->
                     </div>
                     <!--News Grid List Wrap End-->
 
@@ -213,8 +189,6 @@
                     <div class="col-md-9">
                         <div class="gt_newsltr_wrap">
                             <form>
-                                <input type="text" placeholder="Enter your email">
-                                <input class="button_style_1 btn_lg" type="submit" value="Subscribe">
                             </form>
                         </div>
                     </div>
@@ -224,124 +198,15 @@
         <!--NewsLetter Wrap End-->
 
         <!--Footer Wrap Start-->
-        <div class="gt_footer_bg default_width">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 wow fadeIn">
-                        <div class="gt_office_wrap default_width">
-                            <div class="gt_office_time widget">
-                                <h5>Opening Hour</h5>
-                                <ul>
-                                    <li>
-                                        Monday - Friday
-                                        <span>9am to 5pm</span>
-                                    </li>
-                                    <li>
-                                        Saturady - Sunday 
-                                        <span>off</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="gt_foo_about widget">
-                                <h5>About Kidscenter</h5>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin nibh vel velit auctor aliquet.</p>
-                                <ul>
-                                    <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-9">
-                        <div class="foo_col_outer_wrap default_width">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6 wow zoomIn">
-                                    <div class="gt_foo_news widget">
-                                        <h5>Latest News</h5>
-                                        <ul>
-                                            <li>
-                                                <figure>
-                                                    <img src="extra-images/foo-news-01.jpg" alt="">
-                                                </figure>
-                                                <div class="foo_news_content">
-                                                    <a href="<?php echo base_url();?>/assets/kid/#">Lorem ipsum dolor sit amet dolor sit amet</a>
-                                                    <ul>
-                                                        <li>
-                                                            <i class="fa fa-calendar"></i>
-                                                            <span>07-March-2016</span>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fa fa-comments-o"></i>
-                                                            <span>20</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="extra-images/foo-news-02.jpg" alt="">
-                                                </figure>
-                                                <div class="foo_news_content">
-                                                    <a href="<?php echo base_url();?>/assets/kid/#">Lorem ipsum dolor sit amet dolor sit amet</a>
-                                                    <ul>
-                                                        <li>
-                                                            <i class="fa fa-calendar"></i>
-                                                            <span>07-March-2016</span>
-                                                        </li>
-                                                        <li>
-                                                            <i class="fa fa-comments-o"></i>
-                                                            <span>20</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-6 wow zoomIn">
-                                    <div class="gt_foo_recent_projects widget">
-                                        <h5>Our Gallery</h5>
-                                        <ul>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-03.jpg" alt=""></a></li>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-04.jpg" alt=""></a></li>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-05.jpg" alt=""></a></li>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-06.jpg" alt=""></a></li>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-07.jpg" alt=""></a></li>
-                                            <li><a href="<?php echo base_url();?>/assets/kid/#"><img src="extra-images/foo-news-08.jpg" alt=""></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 col-sm-6 wow zoomIn">
-                                    <div class="widget">
-                                        <h5>Our Address</h5>
-                                        <ul class="gt_team1_contact_info">
-                                            <li><i class="fa fa-map-marker"></i>14350 60th St North Clearwater FL. 33760 </li>
-                                            <li><i class="fa fa-phone"></i>1-677-124-44227 </li>
-                                            <li><i class="fa fa-envelope"></i> <a href="<?php echo base_url();?>/assets/kid/#">info@kidscenter.com</a> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        
         <!--Footer Wrap End-->
 
         <!--Copyright Wrap Start-->
         <div class="copyright_bg default_width wow fadeIn">
             <div class="container">
                 <div class="copyright_wrap default_width">
-                    <p>©copyrights.<a href="<?php echo base_url();?>/assets/kid/#">Kidscenter.com</a>. All Right Reserved.</p>
-                    <span>Designed By: <a href="<?php echo base_url();?>/assets/kid/#">2GoodTemplate</a></span>
+                    <p><?php echo $footer_kanan;?></p>
+                    <span><?php echo $footer_kiri;?></span>
                 </div>
             </div>
         </div>  
@@ -361,27 +226,27 @@
 
 
     <!--Jquery Library-->
-    <script src="js/jquery.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery.js"></script>
     <!--Bootstrap core JavaScript-->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/bootstrap.min.js"></script>
     <!--Bx-Slider JavaScript-->
-    <script src="js/jquery.bxslider.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery.bxslider.js"></script>
     <!--Accordian JavaScript-->
-    <script src="js/jquery.accordion.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery.accordion.js"></script>
     <!--Count Down JavaScript-->
-    <script src="js/jquery.downCount.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery.downCount.js"></script>
     <!--Pretty Photo JavaScript-->
-    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery.prettyPhoto.js"></script>
     <!--Owl Carousel JavaScript-->
-    <script src="js/owl.carousel.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/owl.carousel.js"></script>
     <!--Number Count (Waypoint) JavaScript-->
-    <script src="js/waypoints-min.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/waypoints-min.js"></script>
     <!--Filter able JavaScript-->
-    <script src="js/jquery-filterable.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/jquery-filterable.js"></script>
     <!--WOW JavaScript-->
-    <script src="js/wow.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/wow.min.js"></script>
     <!--Custom JavaScript-->
-    <script src="js/custom.js"></script>
+    <script src="<?php echo base_url();?>/assets/kid/js/custom.js"></script>
 
   </body>
 </html>

@@ -16,6 +16,11 @@ if (!defined('BASEPATH'))
 class Model_publik extends CI_Model {
 	
 	
+    public function news($i) {
+        $query = $this->db->get_where('nng_news',array('kategori_id' => $i, 'tampil'=>'Ya'));
+		return $query->result_array();
+    }
+	
     public function get_menu_1() {
         $query = $this->db->get_where('nng_menu_publik',array('parent_id' => 0));
 		return $query->result_array();
