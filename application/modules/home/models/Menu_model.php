@@ -56,6 +56,14 @@ class Menu_model extends CI_Model {
 		return $query->result_array();
 	}
 	
+	public function get_foto_total(){
+		
+		$this->db->select('id, count(*) as total');
+		$this->db->from('nng_gallery');            
+		$query = $this->db->get();
+		return $query->result_array();
+	}
+	
 	
 	public function get_todo_total(){
 		

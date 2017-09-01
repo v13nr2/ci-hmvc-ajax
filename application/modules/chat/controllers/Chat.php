@@ -20,7 +20,7 @@ class Chat extends BaseController {
 		$data['list'] = $this->Chat_model->get_chat();
 		foreach($data['list'] as $row)
         {	
-			echo ' <div class="item"><img src="'.base_url('assets/AdminLTE-2.3.11/dist/img/user3-128x128.jpg').'" alt="user image" class="offline">
+			echo ' <div class="item"><img src="'.base_url('assets/AdminLTE-2.3.11/dist/img/avatar04.png').'" alt="user image" class="offline">
 
                 <p class="message">
                   <a href="#" class="name">

@@ -66,6 +66,23 @@ class Data extends BaseController {
 			$this->_example_output($output);
 	}
 
+	public function album()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_theme('flexigrid');
+			$crud->set_table('nng_gallery');
+			$crud->set_subject('Foto');
+
+			$crud->required_fields('gambar');
+
+			$crud->set_field_upload('gambar','assets/uploads/album');
+
+			$output = $crud->render();
+
+			$this->_example_output($output);
+	}
+
 	public function news()
 	{
 			$crud = new grocery_CRUD();
@@ -74,7 +91,6 @@ class Data extends BaseController {
 			$crud->set_table('nng_news');
 			$crud->set_subject('Konten');
 
-			$crud->required_fields('gambar');
 			
 			$crud->set_relation('kategori_id','nng_kategori_berita','kategori');
 			$crud->set_field_upload('gambar','assets/uploads/files');
@@ -125,6 +141,22 @@ class Data extends BaseController {
 			$crud->set_theme('flexigrid');
 			$crud->set_table('nng_config');
 			$crud->set_subject('Konfig');
+			$crud->unset_delete();
+			$crud->unset_add();
+
+			$output = $crud->render();
+
+			$this->_example_output($output);
+	}
+
+
+	public function sosmed()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_theme('flexigrid');
+			$crud->set_table('nng_sosmed');
+			$crud->set_subject('Link');
 			$crud->unset_delete();
 			$crud->unset_add();
 

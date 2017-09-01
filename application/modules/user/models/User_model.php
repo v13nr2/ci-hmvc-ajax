@@ -28,7 +28,7 @@ class User_model extends CI_Model {
 	{
 		if ($iduser === 0)
 		{
-			$query = $this->db->get_where('nng_users',array('status' => 1,'username <>' => 'admin'));
+			$query = $this->db->get_where('nng_users',array('status' => 1));
 			return $query->result_array();
 		}
 		

@@ -97,7 +97,7 @@ function scroll(){
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="#" onclick="loadContent('user/user_v');" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
                   <a href="<?php echo base_url('index.php/auth/logout');?>" class="btn btn-default btn-flat">Sign out</a>
@@ -251,9 +251,9 @@ function scroll(){
           <!-- small box -->
           <div class="small-box bg-red">
             <div class="inner">
-              <h3>65</h3>
+              <h3><?php echo $totalfoto[0]["total"];?></h3>
 
-              <p>Unique Visitors</p>
+              <p>Foto</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>
@@ -353,12 +353,12 @@ function scroll(){
         <section class="col-lg-5 connectedSortable">
 
           <!-- Map box -->
-          <div align="center">Alat Farmasi
+          <div align="center">Album
 				<div>
 						<canvas id="barangdankoleksi" height="350" ></canvas>
 				</div>
 			</div>
-			<div align="center" >GRAFIK  TAHUNAN 
+			<div align="center" style="display:none" >GRAFIK  TAHUNAN 
 				<div>
 					<canvas id="canvas_tahunan" height="350" ></canvas>
 				</div>
@@ -646,7 +646,7 @@ var mancaAjaxChartData = [
 					value: <?php echo $todo->jumlah; ?>,
 					color:"rgba(151,187,205,0.5)",
 					highlight: "#FF5A5E",
-					label: "Barang Koleksi"
+					label: "Siswa"
 				
 				},
 				<?php } ?>	
@@ -657,7 +657,7 @@ var mancaAjaxChartData = [
 					value: <?php echo $todo->jumlah; ?>,
 					color: "#4D5360",
 					highlight: "#616774",
-					label: "Barang Kantor"
+					label: "Guru"
 				
 				},
 				<?php } ?>				

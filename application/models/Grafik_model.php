@@ -200,7 +200,7 @@ class Grafik_model extends CI_Model {
 	
 	public function dt_koleksi(){
 		$tahunskr = date('Y');
-		$sql = "SELECT COUNT(*) as jumlah FROM nng_barang WHERE `group` = 'BK' ";
+		$sql = "SELECT COUNT(*) as jumlah FROM nng_gallery WHERE `kategori_album` = 'Siswa' ";
 		$query = $this->db->query($sql);
 		return $query->result();
 		
@@ -208,7 +208,7 @@ class Grafik_model extends CI_Model {
 	
 	public function dt_barangkantor(){
 		$tahunskr = date('Y');
-		$sql = "SELECT COUNT(*) as jumlah FROM nng_barang WHERE `group` = 'PK' ";
+		$sql = "SELECT COUNT(*) as jumlah FROM nng_gallery WHERE `kategori_album` = 'Guru' ";
 		$query = $this->db->query($sql);
 		return $query->result();
 		

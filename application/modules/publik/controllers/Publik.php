@@ -11,6 +11,7 @@ class Publik extends CI_Controller
     {
 		
 		$data['title'] = 'Halaman Publik';
+		$data["sosmed"] = $this->Model_publik->sosmed();
 		$data["menu_1"] = $this->Model_publik->get_menu_1();
 		$data["menu_2"] = $this->Model_publik->get_menu_2();
 		$data["banner"] = $this->Model_publik->banner();

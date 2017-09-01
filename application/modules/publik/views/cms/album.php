@@ -118,66 +118,34 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <!--News Grid List Wrap Start-->
-                    <div class="col-md-9">
-						<?php foreach($news as $row){ ?>
-                        <div class="gt_latest_news_wrap default_width mb wow fadeInUp">
-						<?php if($row["gambar"]<>"") { ?>
-                            <img src="<?php echo base_url();?>assets/uploads/files/<?php echo $row["gambar"];?>" alt="">
-						<?php } ?>
-                            <div class="gt_news_des_wrap default_width">
-                                <div class="gt_news_date"><span><?php echo substr($row["tanggal"],-2);?></span><?php echo substr($row["tanggal"],5,2);?> <?php echo substr($row["tanggal"],0,4);?></div>
-                                <div class="gt_latst_new_des">
-                                    <h5><a href="#"><?php echo $row["judul"];?></a></h5>
-                                    <ul>
-                                        
-                                        <li><i class="fa fa-comments-o"></i><a href="<?php echo base_url();?>/assets/kid/#"></a></li>
-                                    </ul>
-                                    <p><?php echo $row["isi"];?></p>
-                                </div>
-                            </div>
-                        </div>
-						<?php }?>
-                        <!--Pagination Wrap Start
-                        <div class="gt_pagination_outer_wrap wow fadeInUp">
-                            <ul>
-                                <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-angle-double-left"></i></a></li>
-                                <li><a href="<?php echo base_url();?>/assets/kid/#">1</a></li>
-                                <li><a href="<?php echo base_url();?>/assets/kid/#">2</a></li>
-                                <li><a href="<?php echo base_url();?>/assets/kid/#">3</a></li>
-                                <li><a href="<?php echo base_url();?>/assets/kid/#"><i class="fa fa-angle-double-right"></i></a></li>
-                            </ul>
-                        </div>
-                        Pagination Wrap End-->
-                    </div>
-                    <!--News Grid List Wrap End-->
-
+                    
                     <!--Aside Bar Wrap Start-->
-                    <div class="col-md-3">
-                        <aside class="gt_aside_outer_wrap">
                             <!--Search Bar Wrap Start-->
                             <?php 
-							foreach($bannersamping as $row){ 
+							foreach($album as $row){ 
+							?>
+							
+                    <div class="col-md-3">
+                        <aside class="gt_aside_outer_wrap">
+							<?php
 								echo $row["judul"];
 								echo "<br>";
 								?>
-								<img src="<?php echo base_url();?>assets/uploads/files/<?php echo $row["gambar"];?>" width="100%">
+								<img src="<?php echo base_url();?>assets/uploads/album/<?php echo $row["gambar"];?>" width="100%">
 								<?php
 								
 								echo "<br>";
 								echo "<br>";
-							}
+							
 							?>
-							<?php 
-							echo "Informasi";
-							echo "<br>";
-							echo $informasi;?>
+							
                             <!--Recent News Wrap Start-->
                             <!--Tags Wrap Start-->
                             
                             <!--Tags Wrap Start-->
                         </aside>
                     </div>
+							<?php } ?>
                     <!--Aside Bar Wrap End-->
                 </div>
             </div>

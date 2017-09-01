@@ -16,8 +16,18 @@ if (!defined('BASEPATH'))
 class Model_publik extends CI_Model {
 	
 	
+    public function sosmed() {
+        $query = $this->db->get_where('nng_sosmed',array('id !=' => 0));
+		return $query->result_array();
+    }
+	
     public function news($i) {
         $query = $this->db->get_where('nng_news',array('kategori_id' => $i, 'tampil'=>'Ya'));
+		return $query->result_array();
+    }
+	
+    public function album($i) {
+        $query = $this->db->get_where('nng_gallery',array('kategori_album' => $i));
 		return $query->result_array();
     }
 	
