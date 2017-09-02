@@ -160,7 +160,7 @@ CREATE TABLE IF NOT EXISTS `nng_banner_samping` (
   `keterangan` varchar(250) NOT NULL,
   `urut` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
 
 -- Dumping data for table hmvc.nng_banner_samping: ~3 rows (approximately)
 /*!40000 ALTER TABLE `nng_banner_samping` DISABLE KEYS */;
@@ -217,14 +217,12 @@ CREATE TABLE IF NOT EXISTS `nng_chat` (
   `waktu` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `status` tinyint(4) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
--- Dumping data for table hmvc.nng_chat: ~3 rows (approximately)
+-- Dumping data for table hmvc.nng_chat: ~1 rows (approximately)
 /*!40000 ALTER TABLE `nng_chat` DISABLE KEYS */;
 INSERT INTO `nng_chat` (`id`, `usename`, `teks`, `waktu`, `status`) VALUES
-	(1, 'admin', 'Selamat Pagi !', '2017-08-31 06:07:48', 1),
-	(2, 'admin', 'Selamat Juga', '2017-08-31 06:08:37', 1),
-	(3, 'admin', 'Rohingya berkabung di pagi menjelang idul adha', '2017-08-31 06:22:57', 1);
+	(1, 'admin', 'Selamat Bekerja !', '2017-08-31 20:21:35', 1);
 /*!40000 ALTER TABLE `nng_chat` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_config
@@ -236,14 +234,59 @@ CREATE TABLE IF NOT EXISTS `nng_config` (
   `nomor_telepon` varchar(50) NOT NULL,
   `informasi` text NOT NULL,
   `animasi_teks` text NOT NULL,
+  `footer_kanan` text NOT NULL,
+  `footer_kiri` text NOT NULL,
+  `running_text` varchar(150) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table hmvc.nng_config: ~1 rows (approximately)
 /*!40000 ALTER TABLE `nng_config` DISABLE KEYS */;
-INSERT INTO `nng_config` (`id`, `judul_web`, `email`, `nomor_telepon`, `informasi`, `animasi_teks`) VALUES
-	(1, 'Sekolah Islam Terpadu Al Furqon', 'jakarta@gmail.com', '021-123', '<p>\r\n	<strong font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">PG IT, TK IT, SD IT, Alfurqon</strong><br />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Jl. R. Sukamto No 1332</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Sekip Ujung - Palembang 30127</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Telp. (0711) 824945</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Fax. (0711) 822631</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<strong font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">SMP IT, SMA IT, Alfurqon</strong><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Jl. HBR. Motik Km 8 Palembang&nbsp;</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Telp. (0711) 418854</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Fax. (0711) 416129&nbsp;</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Email: sitaf@alfurqon.or.id</span></p>\r\n', '<h3>\r\n	Selamat Datang di</h3>\r\n<h2>\r\n	Sekolah Islam Terpadu</h2>\r\n');
+INSERT INTO `nng_config` (`id`, `judul_web`, `email`, `nomor_telepon`, `informasi`, `animasi_teks`, `footer_kanan`, `footer_kiri`, `running_text`) VALUES
+	(1, 'Sekolah Islam Terpadu Al Furqon', 'jakarta21@gmail.com', '021-453427', '<p>\r\n	<strong font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">PG IT, TK IT, SD IT, Alfurqon</strong><br />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Jl. R. Sukamto No 1332</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Sekip Ujung - Palembang 30127</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Telp. (0711) 824945</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Fax. (0711) 822631</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<strong font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">SMP IT, SMA IT, Alfurqon</strong><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Jl. HBR. Motik Km 8 Palembang&nbsp;</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Telp. (0711) 418854</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Fax. (0711) 416129&nbsp;</span><br font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: " />\r\n	<span font-size:="" lucida="" style="color: rgb(0, 0, 0); font-family: ">Email: sitaf@alfurqon.or.id</span></p>\r\n', '<h3>\r\n	Selamat Datang di</h3>\r\n<h2>\r\n	Sekolah Islam Terpadu</h2>\r\n', '<p>\r\n	<span background-color:="" comic="" font-size:="" sans="" style="color: rgb(255, 255, 255); font-family: " text-align:="">COPYRIGHT &copy; 2017 Al-Furqon.All Rights Reserved. &nbsp;</span></p>\r\n', '<p>\r\n	<span background-color:="" comic="" font-size:="" sans="" style="color: rgb(255, 255, 255); font-family: " text-align:="">&nbsp;Sekolah Islam Terpadu | Alfurqon</span></p>\r\n', 'Anda dapat mengubah seluruh kontent dari halama Admin...');
 /*!40000 ALTER TABLE `nng_config` ENABLE KEYS */;
+
+-- Dumping structure for table hmvc.nng_gallery
+DROP TABLE IF EXISTS `nng_gallery`;
+CREATE TABLE IF NOT EXISTS `nng_gallery` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `gambar` varchar(50) DEFAULT NULL,
+  `judul` varchar(50) DEFAULT NULL,
+  `kategori_album` enum('Siswa','Guru') DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.nng_gallery: ~2 rows (approximately)
+/*!40000 ALTER TABLE `nng_gallery` DISABLE KEYS */;
+INSERT INTO `nng_gallery` (`id`, `gambar`, `judul`, `kategori_album`) VALUES
+	(1, '81070-1201.png', 'Siswa 1', 'Siswa'),
+	(2, '06381-1202.png', 'Siswa 2', 'Siswa');
+/*!40000 ALTER TABLE `nng_gallery` ENABLE KEYS */;
+
+-- Dumping structure for table hmvc.nng_kategori_berita
+DROP TABLE IF EXISTS `nng_kategori_berita`;
+CREATE TABLE IF NOT EXISTS `nng_kategori_berita` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `kategori` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.nng_kategori_berita: ~12 rows (approximately)
+/*!40000 ALTER TABLE `nng_kategori_berita` DISABLE KEYS */;
+INSERT INTO `nng_kategori_berita` (`id`, `kategori`) VALUES
+	(1, 'PG'),
+	(2, 'SD'),
+	(3, 'SMP'),
+	(4, 'SMA'),
+	(5, 'Kunjungan'),
+	(6, 'Spesial Event'),
+	(7, 'Keislaman'),
+	(8, 'Pendidikan'),
+	(9, 'YIP Al Fuqon'),
+	(10, 'Devisi Daksos'),
+	(11, 'Devisi Ekonomi'),
+	(12, 'TK');
+/*!40000 ALTER TABLE `nng_kategori_berita` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_menu
 DROP TABLE IF EXISTS `nng_menu`;
@@ -390,9 +433,9 @@ CREATE TABLE IF NOT EXISTS `nng_menu_publik` (
   `controller` varchar(50) NOT NULL DEFAULT '0',
   `urut` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
--- Dumping data for table hmvc.nng_menu_publik: ~15 rows (approximately)
+-- Dumping data for table hmvc.nng_menu_publik: ~18 rows (approximately)
 /*!40000 ALTER TABLE `nng_menu_publik` DISABLE KEYS */;
 INSERT INTO `nng_menu_publik` (`id`, `parent_id`, `nama_menu`, `controller`, `urut`) VALUES
 	(1, 0, 'AKADEMIK', '', 1),
@@ -409,27 +452,54 @@ INSERT INTO `nng_menu_publik` (`id`, `parent_id`, `nama_menu`, `controller`, `ur
 	(13, 12, 'Kunjungan Edukatif', 'content/kunjungan', 0),
 	(14, 12, 'Spesial Event', 'content/special_event', 0),
 	(15, 12, 'Keislaman', 'content/keislaman', 0),
-	(16, 12, 'Pendidikan', 'content/pendidikan', 0);
+	(16, 12, 'Pendidikan', 'content/pendidikan', 0),
+	(17, 0, 'ALBUM', '', 0),
+	(18, 17, 'Guru', 'album/guru', 0),
+	(19, 17, 'Siswa', 'album/siswa', 0);
 /*!40000 ALTER TABLE `nng_menu_publik` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_news
 DROP TABLE IF EXISTS `nng_news`;
 CREATE TABLE IF NOT EXISTS `nng_news` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `gambar` varchar(50) NOT NULL DEFAULT '0',
-  `title` varchar(128) NOT NULL,
+  `gambar` varchar(50) NOT NULL,
+  `tanggal` date NOT NULL,
+  `kategori_id` int(11) NOT NULL,
+  `judul` varchar(128) NOT NULL,
   `slug` varchar(128) NOT NULL,
-  `text` text NOT NULL,
+  `isi` text NOT NULL,
   `tampil` enum('Ya','Tidak') NOT NULL,
   PRIMARY KEY (`id`),
   KEY `slug` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Dumping data for table hmvc.nng_news: ~1 rows (approximately)
+-- Dumping data for table hmvc.nng_news: ~3 rows (approximately)
 /*!40000 ALTER TABLE `nng_news` DISABLE KEYS */;
-INSERT INTO `nng_news` (`id`, `gambar`, `title`, `slug`, `text`, `tampil`) VALUES
-	(2, '0', 'What Is The Alhamdulillah', 'what-is-the-alhamdulillah', '<p>\r\n	ALhamdulillah Is Thank To ALlah.</p>\r\n', 'Tidak');
+INSERT INTO `nng_news` (`id`, `gambar`, `tanggal`, `kategori_id`, `judul`, `slug`, `isi`, `tampil`) VALUES
+	(4, 'c5ee7-studi-tour-pga-2013-4.jpg', '2016-11-14', 5, 'JELAJAH BUMI PAGAR ALAM', '', '<p style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: &quot;Lucida Grande&quot;, Verdana; font-size: 14px;">\r\n	Sebuah program dengan pembelajaran yang luar biasa kembali diberikan kepada siswa kelas VI T.A. 2012-2013. Program Study Tour kelas VI SDIT Al-Furqon merupakan kegiatan tour yang lebih mengedepankan pembelajaran akan keindahan alam dan kemandirian siswa. Selain itu, pada kesempatan ini juga siswa diajak mengaplikasikan sholat Jamak Qosar. Hal ini dilakukan karena perjalanan yang cukup jauh ditempuh siswa. Kegiatan Tour diawali oleh pembekalan oleh Ustad Khoiri selaku kepala SDIT Al-Furqon Palembang dan Ustad Agus Priyatmono selaku kepala SIT Al-Furqon. Tampak raut sumringah dan ceriah anak-anak kelas VI mengikuti acara ini.</p>\r\n<p style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: &quot;Lucida Grande&quot;, Verdana; font-size: 14px;">\r\n	Selama perjalanan, canda tawa anak-anak menghangatkan suasana dalam tiga bus. Tour ini diikuti 70 orang dengan 55 siswa selebihnya guru pendamping dan wali murid. Setiap kabupaten menunjukkan ciri khas bangunannya ini menjadi daya tarik tersendiri bagi anak-anak. Sesampai di vila Seganti Sepetungguan yang merupakan Vila milik pemkot Lahat, kami disambut oleh pengelola Vila sambil mengantarkan kami ke Villa. Suasana Vila yang begitu sejuk dan tampak pemandangan Kota Pagar Alam yang begitu indahnya. Keesokan Paginya siswa diajak menaiki perbukitan kaki gunung Dempo sembali melihat mata hari terbit kami terkesima akan keindahan alam Pagar Alam. Tepat pukul 08.00 WIB pemandu tour kami mengajak ke tempat air terjun curup mangkok yang tak jauh dari Villa kami. Setelah itu kami lanjut ke air terjun curup embon dengan tiga air terjunnya yang begitu mempesona setiap mata yang memandangnya. &nbsp;Di hari kedua ini kami berhenti di PTPN 17, yaitu tempat pembuatan teh. Setelah itu kami sholat Jumat di masjid sekitar. Kegiatan kami dilanjutkan lagi ke kebun salak, seribu tangga, dan terakhir ke situs purbakala.</p>\r\n<p style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: &quot;Lucida Grande&quot;, Verdana; font-size: 14px;">\r\n	Kegiatan di hari kedua ini diakhiri dengan ke pusat perbelanjaan. Karena di hari ketiga kami harus segera pulang ke Palembang.&nbsp;<em style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;">Alhamdulilah</em>&nbsp;sepanjang perjalanan pulang di hari ketiga kami tidak mengalami hal-hal yang mengkhawatirkan. Kami pulang ke Palembang dengan selamat dan tanpa kurang suatu apapun juga. &nbsp;</p>\r\n<p style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: &quot;Lucida Grande&quot;, Verdana; font-size: 14px;">\r\n	By. Ust. Mahyudi, M.Pd</p>\r\n', 'Ya'),
+	(5, '969b5-kodja-2.gif', '2016-11-15', 5, 'KUNJUNGAN EDUKATIF KELAS VI SDIT ALFURQON KE PT KO', '', '<p font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	Transportasi merupakan sarana untuk meningkatkan perekonomian. Dengan berkembangnya ilmu pengetahuan maka transfortasi semakin berkembang pula. Agar siswa memperoleh informasi, kali ini kunjungan edukatif difokuskan pada pembuatan dan perakitan kapal. Siswa sangat antusias dalam mengikuti kegiatan kunjungan ini. Hal ini terlihat ketika mereka diberitahukan bahwa akan berkunjung ke sana. Dapat dikatakan kegiatan kutif ini sebagai proses pembelajaran yang secara langsung dilakukan siswa. Untuk itu, siswa ditugaskan membuat laporan jurnalistik.</p>\r\n<p font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	Sesampai di lokasi siswa diarahkan oleh staf pegawai PT Kodja Bahari menuju aula. Wakil pimpinan dan staf lapangan sudah bersiap dengan tampilan slide infokus. Beliau menerangkan mengenai sejarah berdirinya perusahaan. Lebih lanjut, mereka juga menguraikan jenis-jenis kapal yang ada saat ini terdapat di pasaran. Selain itu, proses pembuatannya juga dijelaskan secara seksama mulai dari perencanaan, proses, dan penyelesaiannya. Sepanjang penjelasan siswa begitu antusias mendengarkan penjelasan tersebut. Ini bisa dibuktikan dengan banyaknya pertanyaan yang diajukan oleh siswa seputar pembuatan kapal.</p>\r\n<p font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;Terakhir, siswa diajak berkeliling diseputar perusahaan. Sepanjang pengamatan, siswa sibuk mencatat penjelasan staf lapangan perusahan yang menjelaskan kegiatan apa yang dilakukan di setiap titik proses pembuatan kapal. Ada juga siswa yang sibuk memfoto berbagai kegiatan yang berada di sana. Karena lokasi pembuatan kapal di pinggir Sungai Musi, siswa mengabadikan moment kunjungan kali ini dengan berfoto yang berlatarkan sungai. Kegiatan ini kemudian ditutup dengan doa yang dipandu oleh Ustadz Andreanto, M.Pd.I. Siswapun dipandu untuk memasuki mobil agar dapat pulang ke sekolah. Tidak lupa laporan jurnalistik yang mereka buat juga dikumpulkan ke ketua kelas masing-masing.</p>\r\n<p font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	Oleh : Mahyudi, M.Pd.</p>\r\n', 'Ya'),
+	(6, '', '0000-00-00', 1, 'Play Group Islam Terpadu ALFURQON', '', '<p font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	<br />\r\n	1.Membiasakan anak untuk bersosialisasi dan berkomunikasi dengan teman sebaya</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;agar mampu peduli dan &nbsp;&nbsp;&nbsp;berbagi dengan sesama.&nbsp;<br />\r\n	2.Memperkenalkan kepada anak lingkungan yang beragam dan lingkungan yang</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;bernuansa Islam.&nbsp;<br />\r\n	3.Menanamkan dasar-dasar leadership pada anak sejak usia dini agar memiliki</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;kepekaan dan keingintahuan &nbsp;&nbsp;&nbsp;lebih dalam terhadap segala sesuatu yang dihadapinya.<br />\r\n	4.Membantu menstimulasi dan mengembangkan potensi efektif, kognitif dan psikomotor anak.&nbsp;<br />\r\n	5.Memperkenalkan suasana sekolah yang menyenangkan kepada anak sehingga</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;memberikan image yang baik &nbsp;&nbsp;&nbsp;agar mempermudah orang tua dalam</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;mengantarkan anak ke jenjang sekolah yang sesungguhnya.<br />\r\n	<br />\r\n	<strong style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;">Adapun standar kualitas Play Group Play Al-Furqon adalah mempersiapkan anak agar mampu:</strong><br />\r\n	<br />\r\n	a.Mengikuti pendidikan lebih lanjut di taman kanak-kanak dengan baik.&nbsp;<br />\r\n	b.Bersosialisasi dengan lingkungan sosial sebaya secara wajar, mampu berbagi rasa (sharing),</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;mengenal arti &nbsp;&nbsp;&nbsp;menghargai sesama, dan dalam batas tertentu mampu mengembangkan</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;sifat dan sikap mandiri.&nbsp;<br />\r\n	c.Mengenal dan membiasakan menjaga lingkungan di sekitarnya.&nbsp;<br />\r\n	d.Mengenalkan dan melafalkan sejumlah do&#39;a, ayat-ayat pilihan Al-Qur&#39;an dan bacaan</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;sholat wajib.&nbsp;<br />\r\n	e.Mengenal simbol dan konsep sederhana bilangan, posisi, warna, bentuk, ukuran,</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;sensori dan suara.&nbsp;<br />\r\n	f.Mengembangkan kreatifitas melalui pengerjaan tugas-tugas khusus yang dirancang untuk</p>\r\n<p align="left" font-size:="" lucida="" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(0, 0, 0); font-family: ">\r\n	&nbsp;&nbsp;&nbsp;pengembangan &nbsp;&nbsp;&nbsp;kreatifitas anak.&nbsp;<br />\r\n	g.Berkomunikasi dengan baik melalui ucapan maupun simbol-simbol komunikasi lainnya.</p>\r\n', 'Ya');
 /*!40000 ALTER TABLE `nng_news` ENABLE KEYS */;
+
+-- Dumping structure for table hmvc.nng_offers
+DROP TABLE IF EXISTS `nng_offers`;
+CREATE TABLE IF NOT EXISTS `nng_offers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `judul` varchar(50) NOT NULL,
+  `keterangan` varchar(250) NOT NULL,
+  `status` varchar(250) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.nng_offers: ~5 rows (approximately)
+/*!40000 ALTER TABLE `nng_offers` DISABLE KEYS */;
+INSERT INTO `nng_offers` (`id`, `judul`, `keterangan`, `status`) VALUES
+	(1, 'Lingkungan Sekolah', 'Lingkungan Sekolah yang bersih, nyaman dan islami', ''),
+	(2, 'Pembinaan', 'Pembinaan Pada Sikap dan Akhlak', ''),
+	(3, 'Kegiatan Belajar', 'Kegiatan belajar yang menyenangkan', ''),
+	(4, 'Fasilitas', 'Fasilitas yang mendukung', ''),
+	(5, 'Ekstra Kurikuler', 'Ekstra Kurikuler yang variatif', '');
+/*!40000 ALTER TABLE `nng_offers` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_rekening
 DROP TABLE IF EXISTS `nng_rekening`;
@@ -534,6 +604,23 @@ INSERT INTO `nng_rekening` (`norek`, `namarek`, `saldonormal`, `tipe`, `saldoawa
 	('KL3-214', 'Simpanan Sukarela', 'K', 'P', 0.00, 0.00, 0.00, 0.00, 1, 0, 0, '01'),
 	('AL1-11112', 'Kas Kecil', 'D', 'A', 0.00, 0.00, 0.00, 0.00, 1, 0, 0, '01');
 /*!40000 ALTER TABLE `nng_rekening` ENABLE KEYS */;
+
+-- Dumping structure for table hmvc.nng_sosmed
+DROP TABLE IF EXISTS `nng_sosmed`;
+CREATE TABLE IF NOT EXISTS `nng_sosmed` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `facebook` varchar(50) DEFAULT '#',
+  `twitter` varchar(50) DEFAULT '#',
+  `google_plus` varchar(50) DEFAULT '#',
+  `linkedin` varchar(50) DEFAULT '#',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- Dumping data for table hmvc.nng_sosmed: ~1 rows (approximately)
+/*!40000 ALTER TABLE `nng_sosmed` DISABLE KEYS */;
+INSERT INTO `nng_sosmed` (`id`, `facebook`, `twitter`, `google_plus`, `linkedin`) VALUES
+	(1, 'http://facebook.com/nanang.rustianto', '#', '#', '#');
+/*!40000 ALTER TABLE `nng_sosmed` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_stock
 DROP TABLE IF EXISTS `nng_stock`;
@@ -4886,12 +4973,12 @@ CREATE TABLE IF NOT EXISTS `nng_todo` (
   `waktu` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `status` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table hmvc.nng_todo: ~1 rows (approximately)
 /*!40000 ALTER TABLE `nng_todo` DISABLE KEYS */;
 INSERT INTO `nng_todo` (`id`, `todo`, `waktu`, `status`) VALUES
-	(2, 'Nunggu Program Aset konawe Aset........', '2017-05-22 03:46:20', 1);
+	(1, 'Update Web', '2017-08-31 20:21:44', 1);
 /*!40000 ALTER TABLE `nng_todo` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.nng_transaksi
@@ -4931,7 +5018,7 @@ CREATE TABLE IF NOT EXISTS `nng_users` (
 -- Dumping data for table hmvc.nng_users: 1 rows
 /*!40000 ALTER TABLE `nng_users` DISABLE KEYS */;
 INSERT INTO `nng_users` (`id`, `username`, `password`, `nama`, `status`) VALUES
-	(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrator', 1);
+	(1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'Administrator', 1);
 /*!40000 ALTER TABLE `nng_users` ENABLE KEYS */;
 
 -- Dumping structure for table hmvc.tiger_desa
