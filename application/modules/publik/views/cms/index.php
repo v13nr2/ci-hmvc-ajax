@@ -105,6 +105,7 @@
                             </ul>
                         </li>
 						<?php } ?>
+						<li class=""><a href="<?php echo site_url();?>">Admin</a></li>
                     </ul>
                 </nav>
             </div>

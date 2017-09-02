@@ -27,7 +27,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin </b>AL FURQON</a>
+    <a href="../../index2.html"><b>Admin </b>LTE</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -44,14 +44,12 @@
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-            </label>
-          </div>
+        <div class="col-md-6">
+          <button type="button" id="public" onclick="publik();" class="btn btn-primary btn-block btn-flat">Public Site</button>
+          
         </div>
         <!-- /.col -->
-        <div class="col-xs-4">
+        <div class="col-md-6">
           <button type="button" id="login" class="btn btn-primary btn-block btn-flat">Sign In</button>
         </div>
         <!-- /.col -->
@@ -106,6 +104,9 @@
 		  });
 	  });
   });
+  function publik(){
+	  window.location.href='<?php site_url();?>publik';
+  }
 </script>
 </body>
 </html>
