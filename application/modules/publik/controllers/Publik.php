@@ -16,6 +16,7 @@ class Publik extends CI_Controller
 		$data["menu_2"] = $this->Model_publik->get_menu_2();
 		$data["banner"] = $this->Model_publik->banner();
 		$data["config"] = $this->Model_publik->config();
+		$data["offers"] = $this->Model_publik->offers();
 		$this->load->view("publik/cms/head.php", $data);
 		$this->load->view('publik/cms/index', $data);
 		$this->load->view("publik/cms/foot.php");

@@ -21,6 +21,11 @@ class Model_publik extends CI_Model {
 		return $query->result_array();
     }
 	
+    public function offers() {
+        $query = $this->db->get_where('nng_offers',array('id !=' => 0));
+		return $query->result_array();
+    }
+	
     public function news($i) {
         $query = $this->db->get_where('nng_news',array('kategori_id' => $i, 'tampil'=>'Ya'));
 		return $query->result_array();

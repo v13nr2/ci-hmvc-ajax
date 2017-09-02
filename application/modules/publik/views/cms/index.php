@@ -189,7 +189,32 @@
         <!--Banner Services Wrap End-->
         
         <!--Offer Wrap start-->
-        
+        <section class="gt_wht_offer_bg wow fadeInUp">
+            <div class="container">
+            	<div class="gt_hdg_1 wow zoomIn wow zoomIn">
+                    <h3>KEUNGGULAN YANG KAMI TAWARKAN</h3>
+                    <p>
+                    </p>
+                    <span><img src="<?php echo base_url();?>assets/kid/images/hdg-01.png" alt=""></span>
+                </div>
+                <!--What We Offer 2 Wrap Start-->
+                <div class="row">
+				<?php foreach($offers as $row){ ?>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="gt_wht_offer_wrap mb">
+                            <i class="icon-pencil bg_2"></i>
+                            <div class="gt_wht_offer_des">
+                                <h5><a href="#"><?php echo $row['judul'];?></a></h5>
+                                <span class="bg_offer_2"></span>
+                                <p><?php echo $row['keterangan'];?></p>
+                            </div>
+                        </div>
+                    </div>
+				<?php } ?>   
+                </div>
+                <!--What We Offer 2 Wrap End-->
+            </div>
+        </section>
         <!--offer Wrap End-->
         
         <!--Facts and Figure Wrap End-->

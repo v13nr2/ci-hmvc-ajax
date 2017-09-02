@@ -66,6 +66,20 @@ class Data extends BaseController {
 			$this->_example_output($output);
 	}
 
+	public function offers()
+	{
+			$crud = new grocery_CRUD();
+
+			$crud->set_theme('flexigrid');
+			$crud->set_table('nng_offers');
+			$crud->set_subject('Keunggulan');
+
+
+			$output = $crud->render();
+
+			$this->_example_output($output);
+	}
+
 	public function album()
 	{
 			$crud = new grocery_CRUD();
