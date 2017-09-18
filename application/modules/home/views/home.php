@@ -189,8 +189,8 @@ function scroll(){
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Dashboard Provinsi
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -271,7 +271,90 @@ function scroll(){
           <!-- Custom tabs (Charts with tabs)-->
        
           <!-- /.nav-tabs-custom -->
+			
+		<div class="col-md-4">
+			<!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="profile-user-img img-responsive img-circle" src="<?php echo base_url();?>assets/images/logo/makassar.jpg" alt="User profile picture">
 
+              <h3 class="profile-username text-center">Makassar</h3>
+
+              <p class="text-muted text-center">MES</p>
+
+              <ul class="list-group list-group-unbordered">
+                <li class="list-group-item">
+                  <b>Selisih</b> <a class="pull-right">1,322</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Hutang</b> <a class="pull-right">543</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Piutang</b> <a class="pull-right">13,287</a>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary btn-block"><b>Laporan Utama</b></a>
+            </div>
+            <!-- /.box-body -->
+          </div>
+		</div>	
+		<div class="col-md-4">
+			<!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="profile-user-img img-responsive img-circle" src="<?php echo base_url();?>assets/images/logo/maros.png" alt="User profile picture">
+
+              <h3 class="profile-username text-center">Maros</h3>
+
+              <p class="text-muted text-center">MES</p>
+
+              <ul class="list-group list-group-unbordered">
+                <li class="list-group-item">
+                  <b>Selisih</b> <a class="pull-right">1,322</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Hutang</b> <a class="pull-right">543</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Piutang</b> <a class="pull-right">13,287</a>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary btn-block"><b>Laporan Utama</b></a>
+            </div>
+            <!-- /.box-body -->
+          </div>
+		</div>	
+		<div class="col-md-4">
+			<!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="profile-user-img img-responsive img-circle" src="<?php echo base_url();?>assets/images/logo/bone.jpg" alt="User profile picture">
+
+              <h3 class="profile-username text-center">Bone</h3>
+
+              <p class="text-muted text-center">MES</p>
+
+              <ul class="list-group list-group-unbordered">
+                <li class="list-group-item">
+                  <b>Selisih</b> <a class="pull-right">1,322</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Hutang</b> <a class="pull-right">543</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Piutang</b> <a class="pull-right">13,287</a>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary btn-block"><b>Laporan Utama</b></a>
+            </div>
+            <!-- /.box-body -->
+          </div>
+		</div>	
+			
+			
           <!-- Chat box -->
           <div class="box box-success" id="scrollChat" style="height:200px; overflow-y: scroll; ">
             <div class="box-header">
@@ -353,7 +436,7 @@ function scroll(){
         <section class="col-lg-5 connectedSortable">
 
           <!-- Map box -->
-          <div align="center">Album
+          <div align="center">Wilayah
 				<div>
 						<canvas id="barangdankoleksi" height="350" ></canvas>
 				</div>
@@ -646,7 +729,7 @@ var mancaAjaxChartData = [
 					value: <?php echo $todo->jumlah; ?>,
 					color:"rgba(151,187,205,0.5)",
 					highlight: "#FF5A5E",
-					label: "Siswa"
+					label: "Daerah"
 				
 				},
 				<?php } ?>	
