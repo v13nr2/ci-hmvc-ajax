@@ -43,8 +43,9 @@ class rekening_model extends CI_Model {
 	
 	public function loadx($id)
 	{
-		$query = $this->db->query("SELECT A.*,B.nama AS induk,B.kode AS kodeinduk FROM nng_rekening A, nng_rekening B WHERE B.id = A.parent_id AND A.id = '$id'");
+		$query = $this->db->query("SELECT A.*,B.namarek  AS induk,B.norek AS kodeinduk FROM nng_rekening A, nng_rekening B WHERE B.id = A.parent_id AND A.norek = '$id'");
 		return $query->result_array();
+		
 	}
 	
 	

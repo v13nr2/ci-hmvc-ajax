@@ -88,6 +88,7 @@ class Rekening extends BaseController
 	public function loadx(){
 		$this->load->model('rekening/rekening_model');
 		$data = $this->rekening_model->loadx( $this->input->post('id') );
+		//die($this->db->last_query());
 		$result = array(
     		'success' => true,
     		'data' => $data

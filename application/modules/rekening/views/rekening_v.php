@@ -133,6 +133,15 @@ $(document).ready(function(){
 			  data:"id="+x,
 			  dataType: 'json',
 			  success:  function(response){	
+				if(response.data[0] == undefined){
+					alert("Data Rekening Belum di Set Parent ID nya");
+					  $("#id").val('');
+					  $("#coa").val('');
+					  $("#kodecoa").val('');
+					  $("#transaksi").val('');
+					  $("#group").val('');
+					  $("#coainduk").val('');
+				} else {
 					//for(var x=0;x<response.data.length;x++){
 					  $("#id").val(response.data[0]['id']);
 					  $("#coa").val(response.data[0]['nama']);
@@ -141,6 +150,7 @@ $(document).ready(function(){
 					  $("#group").val(response.data[0]['group']);
 					  $("#coainduk").val(response.data[0]['kodeinduk']);
 					//}  
+				}
 			  },
 			  error: function(){
 					alert("eror");
