@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost:3307',
+	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'CyberHome',
+	'password' => '99',
 	'database' => 'hmvc',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
